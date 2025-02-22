@@ -22,7 +22,6 @@ jobs:
         ref: 'main'
         path: schema
         token: ${{ secrets.SCHEMA_ACCESS_TOKEN }}
-    - run: ls -la schema
     - name: Install ajv-cli and ajv-formats
       run: npm install -g ajv-cli ajv-formats
     - name: Get changed files
