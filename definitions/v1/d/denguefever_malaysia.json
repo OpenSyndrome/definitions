@@ -1,0 +1,72 @@
+{
+  "title": "Open Syndrome Dengue Fever",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Malaysia",
+  "language": "English",
+  "organization": "Ministry of Health",
+  "authors": [
+    "Vector Borne Disease Sector - Disease Control Division"
+  ],
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Acute onset of high grade fever of usually 2-5 days or more"
+        },
+        {
+          "type": "criteria",
+          "name": "Other symptoms",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            2
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "headache"
+            },
+            {
+              "type": "symptom",
+              "name": "retro-orbital pain"
+            },
+            {
+              "type": "symptom",
+              "name": "myalgia"
+            },
+            {
+              "type": "symptom",
+              "name": "arthralgia"
+            },
+            {
+              "type": "symptom",
+              "name": "rash"
+            },
+            {
+              "type": "symptom",
+              "name": "mild haemorrhagic manifestation",
+              "description": "e.g. epistaxis, gums bleeding and petechiae"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+    "references": [
+        {
+        "citation": "Case Definition of Infectious Disease 3rd Edition 2017",
+        "url": "https://www2.moh.gov.my/moh/resources/Penerbitan/Garis%20Panduan/Pengurusan%20KEsihatan%20&%20kawalan%20pykit/Case_Definition_Of_Infectious_Disease_3rd_Edition_2017.pdf"
+        }
+    ]
+}

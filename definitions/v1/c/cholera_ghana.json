@@ -1,0 +1,42 @@
+{
+  "title": "Open Syndrome Cholera",
+  "description": "Case definition for suspected case of cholera",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Ghana",
+  "language": "English",
+  "organization": "Ministry of Health",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "demographic_criteria",
+          "name": "5 years old or more",
+          "attribute": "age",
+          "operator": ">=",
+          "value": 5,
+          "unit": "years"
+        },
+        {
+          "type": "symptom",
+          "name": "Acute watery diarrhea"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "If there is a cholera epidemic, a suspected case is a person age 5 years or more with acute watery diarrhoea, with or without vomiting."
+  ],
+  "references": [{
+    "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Integrated-Disease-Surveillance-and-Response-Ghana-Guidelines.pdf"
+  }]
+}

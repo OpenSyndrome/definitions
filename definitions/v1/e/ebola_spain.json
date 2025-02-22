@@ -1,0 +1,79 @@
+{
+  "title": "Open Syndrome Ebola",
+  "description": "",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "location": "Spain",
+  "language": "English",
+  "organization": "Ministerio de Sanidad, Consumo y Bienestar Social",
+  "authors": [
+    "Ponencia de Alertas de Salud Pública y Planes de Preparación y Respuesta",
+    "Ponencia de Salud Laboral"
+  ],
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Fever",
+          "attribute": "body_temperature",
+          "operator": ">=",
+          "value": 37.7,
+          "unit": "celsius"
+        },
+        {
+          "name": "At least one of the following symptoms",
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Severe headache",
+              "description": "intense"
+            },
+            {
+              "type": "symptom",
+              "name": "Vomiting"
+            },
+            {
+              "type": "symptom",
+              "name": "Diarrhea"
+            },
+            {
+              "type": "symptom",
+              "name": "Abdominal pain"
+            },
+            {
+              "type": "symptom",
+              "name": "Muscle pain"
+            },
+            {
+              "type": "symptom",
+              "name": "Unexplained hemorrhagic manifestation"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Para valorar la fiebre, se deberá tener en cuenta si está tomando antitérmicos, está en situación de inmunodepresión o cualquier otra situación que pueda afectar a la temperatura corporal, como son los niños, ancianos, etc. En los lactantes, especialmente en los menores de 3 meses, la fiebre puede no ser evidente y se deben valorar como criterio clínico los síntomas y signos de afectación sistémica."
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T13:41:32Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "references": [
+    {
+      "url": "https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/ebola/documentos/Protocolo_actuacion_Ebola.pdf"
+    }
+  ]
+}

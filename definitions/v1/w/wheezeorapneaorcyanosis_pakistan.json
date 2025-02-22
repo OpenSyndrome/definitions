@@ -1,0 +1,52 @@
+{
+  "title": "Open Syndrome Respiratory syncitial virus (RSV)",
+  "description": "Wheeze or apnea or cyanosis",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Pakistan",
+  "language": "English",
+  "organization": "Hubert Department of Global Health",
+  "authors": [
+    "Omer, Saad B. PhD",
+    "Bednarczyk, Robert PhD",
+    "Kazi, Momin MBBS",
+    "Guterman, L. Beryl MSPH",
+    "Aziz, Fatima MBBS",
+    "Allen, Kristen E. MPH",
+    "Yildirim, Inci PhD",
+    "Ali, S. Asad MBBS"
+  ],
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "wheeze"
+        },
+        {
+          "type": "symptom",
+          "name": "apnea"
+        },
+        {
+          "type": "symptom",
+          "name": "cyanosis"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Omer, Saad B. PhD*,†,‡,§; Bednarczyk, Robert PhD*,†,§; Kazi, Momin MBBS; Guterman, L. Beryl MSPH*; Aziz, Fatima MBBS; Allen, Kristen E. MPH*; Yildirim, Inci PhD†,‡; Ali, S. Asad MBBS. Assessment and Validation of Syndromic Case Definitions for Respiratory Syncytial Virus Testing in a Low Resource Population. The Pediatric Infectious Disease Journal 38(3):p e57-e59, March 2019. | DOI: 10.1097/INF.0000000000002159",
+      "url": "https://journals.lww.com/pidj/Fulltext/2019/03000/Assessment_and_Validation_of_Syndromic_Case.29.aspx"
+    }
+  ]
+}

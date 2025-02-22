@@ -1,0 +1,38 @@
+{
+  "title": "Open Syndrome Unconfirmed Severe Malaria",
+  "description": "",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Nigeria",
+  "language": "English",
+  "organization": "",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "description": "Any patient hospitalized with severe febrile disease with accompanying vital organ dysfunction diagnosed clinically.",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "severe febrile illness"
+        },
+        {
+          "type": "professional_judgment",
+          "name": "vital organ dysfunction"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://ncdc.gov.ng/themes/common/docs/protocols/31_1503912332.pdf"
+    }
+  ]
+}

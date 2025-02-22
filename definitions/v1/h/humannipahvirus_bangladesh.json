@@ -1,0 +1,58 @@
+{
+  "title": "Open Syndrome Nipah Like Illness",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Bangladesh",
+  "language": "English",
+  "organization": "",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Fever (axillary temperature >38.5°C)"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "history of raised temperature prior to hospitalization"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "any sign/symptom of lung pathology"
+            },
+            {
+              "type": "symptom",
+              "name": "any sign/symptom of brain pathology"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Satter SM, Aquib WR, Sultana S, Sharif AR, Nazneen A, et al. (2023) Tackling a global epidemic threat: Nipah surveillance in Bangladesh, 2006–2021. PLOS Neglected Tropical Diseases 17(9): e0011617.",
+      "url": "https://doi.org/10.1371/journal.pntd.0011617"
+    }
+  ]
+}

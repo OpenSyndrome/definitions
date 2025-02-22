@@ -1,0 +1,66 @@
+{
+  "title": "Open Syndrome Hepatitis A",
+  "description": "Viral hepatitis",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "category": "suspected",
+  "location": "Turkey",
+  "language": "English",
+  "organization": "Turkish Ministry of Health's General Directorate of Public Health",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Sudden onset of abdominal pain, loss of appetite, weakness, nausea, vomiting"
+            },
+            {
+              "type": "criteria",
+              "name": "At least one of the following clinical criteria",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [
+                1
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Fever"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Jaundice"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Increased serum aminotransferase (ALT and AST), urobilinogen in urine"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "web",
+      "url": "https://hsgm.saglik.gov.tr/depo/birimler/bulasici-hastaliklar-ve-erken-uyari-db/Dokumanlar/Sunumlar/TVHKP_Viral_Hepatitlerin_Bildirimi.pdf"
+    }
+  ],
+  "notes": [
+    "It should be remembered that it may be mostly asymptomatic and/or anicteric"
+  ]
+}

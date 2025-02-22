@@ -1,0 +1,39 @@
+{
+  "title": "Open Syndrome Diarrhea",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "location": "Pacific Islands",
+  "language": "English",
+  "organization": "Pacific Public Health Surveillance Network (PPHSN)",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "name": "Three or more loose or watery stools",
+      "attribute": "stools",
+      "operator": ">=",
+      "value": 3,
+      "unit": "occurrences"
+    },
+    {
+      "type": "criteria",
+      "name": "Less than 24 hours",
+      "attribute": "Time period",
+      "operator": "<",
+      "value": 24,
+      "unit": "hours"
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T13:59:09Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "references": [
+    {
+      "url": "https://www.pphsn.net/wp-content/uploads/2018/06/Towards_standardised_syndromic_event-based_surv_system_Pacific.pdf"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Open Syndrome Tuberculosis",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "language": "English",
+  "organization": "ECDC",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Signs, symptoms and/or radiological findings consistent with active tuberculosis in any site"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "professional_judgment",
+              "name": "A clinician's decision to treat the person with a full course of anti-tuberculosis therapy"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "A case discovered post-mortem with pathological findings consistent with active tuberculosis that would have indicated anti-tuberculosis antibiotic treatment had the patient been diagnosed before dying"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T18:51:19Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "references": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018D0945&from=EN"
+    }
+  ],
+  "location": "Europe"
+}

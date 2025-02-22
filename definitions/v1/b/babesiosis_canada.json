@@ -1,0 +1,47 @@
+{
+  "title": "Open Syndrome Babesiosis",
+  "description": "Case definition for suspected babesiosis",
+  "scope": "specific",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Canada",
+  "language": "English",
+  "organization": "Public Health Agency of Canada",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "fever"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [1],
+          "values": [
+            {"type": "symptom", "name": "fatigue"},
+            {"type": "symptom", "name": "chills"},
+            {"type": "symptom", "name": "sweats"},
+            {"type": "symptom", "name": "headache"},
+            {"type": "symptom", "name": "anorexia"},
+            {"type": "symptom", "name": "hemolytic anemia"},
+            {"type": "symptom", "name": "thrombocytopenia"}
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "National Case Definition for Babesiosis, Canada",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/babesiosis/health-professionals/national-case-definition.html"
+    }
+  ]
+}

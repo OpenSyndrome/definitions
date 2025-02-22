@@ -1,0 +1,56 @@
+{
+  "title": "Open Syndrome Acute Flaccid Paralysis (AFP)",
+  "description": "Case definition for suspected polio",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T11:56:57Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Kenya",
+  "language": "English",
+  "organization": "Ministry of Health",
+  "authors": [
+    "Division of Disease Surveillance and Response"
+  ],
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "name": "Weakness or floppiness of the limbs in a child 15 years old or less",
+          "values": [
+            {
+              "type": "criteria",
+              "name": "Acute flaccid paralysis",
+              "description": "Weakness or floppiness of the limbs of sudden onset not due to trauma"
+            },
+            {
+              "type": "demographic_criteria",
+              "name": "15 years old or less",
+              "attribute": "age",
+              "operator": "<=",
+              "value": 15,
+              "unit": "years"
+            }
+          ]
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Clinical suspicion of polio",
+          "description": "Any person of any age in whom a clinician suspects polio"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://nphi.go.ke/sites/default/files/2024-02/Case%20definition%20Chart_0.pdf"
+    }
+  ]
+}

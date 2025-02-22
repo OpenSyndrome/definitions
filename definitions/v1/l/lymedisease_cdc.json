@@ -1,0 +1,58 @@
+{
+  "title": "Open Syndrome Lyme Disease",
+  "description": "",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "language": "English",
+  "organization": "Open Syndrome Initiative",
+  "clinical_criteria": [
+    {
+      "type": "diagnosis",
+      "name": "Lyme disease",
+      "code": {
+        "system": "ICD-10",
+        "code": "A692"
+      }
+    },
+    {
+      "type": "criteria",
+      "name": "Bull's eye rashes",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Bull's eye"
+            },
+            {
+              "type": "symptom",
+              "name": "Rash"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "type": "epidemiological_history",
+      "name": "History of lyme disease"
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T19:07:35Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "references": [
+    {
+      "url": "https://knowledgerepository.syndromicsurveillance.org/lyme-disease-centers-disease-control-and-prevention"
+    }
+  ],
+  "location": "CDC"
+}

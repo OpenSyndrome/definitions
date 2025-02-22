@@ -1,0 +1,80 @@
+{
+  "title": "Open Syndrome COVID-19 (Egypt)",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2020-05-30T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Egypt",
+  "language": "English",
+  "organization": "Ministry of health and population (MOHP)",
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "name": "A. Any one of the epidemiological history with any of the clinical features",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "epidemiological_history",
+              "name": "History of travel to or residence in communities where cases reported within the last 14 days"
+            },
+            {
+              "type": "epidemiological_history",
+              "name": "In contact with a patient who has fever or respiratory symptoms or from a community with confirmed cases reported within the last 14 days"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "name": "B. Assessing the presence of at least two of the following clinical features",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            2
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Fever and/or respiratory symptoms"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "Imaging characteristics"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "Differential CBC findings",
+              "description": "White blood cells is normal or decreased, with decreased lymphocytic count."
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "name": "C. Severe Acute Respiratory Infection (SARI) with no other obvious cause",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "professional_judgment",
+              "name": "Severe Acute Respiratory Infection (SARI) with other obvious cause for SARI"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Masoud, Hossam & Elassal, Gehan & Zaky, Samy & Baki, Amin & Ibrahem, Hamdy & Amin, Wagdy & Abdelbary, Akram & Abdalmohsen, Ahmad & Hassany, Mohamed & Eid, Alaa & Asem, Noha & Kamal, Ehab. (2020). Management Protocol for COVID-19 Patients Version 1.4/30th May 2020 Ministry of health and population (MOHP), Egypt.",
+      "url": "https://www.researchgate.net/publication/344078546_Management_Protocol_for_COVID-19_Patients_Version_1430th_May_2020_Ministry_of_health_and_population_MOHP_Egypt"
+    }
+  ],
+  "notes": []
+}
