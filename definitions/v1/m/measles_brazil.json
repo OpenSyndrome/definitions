@@ -1,75 +1,77 @@
 {
-    "title": "Open Syndrome Measles",
-    "description": "",
-    "scope": "broad",
-    "category": "suspected",
-    "version": "1.0.0",
-    "language": "English",
-    "location": "Brazil",
-    "organization": "Health Ministry",
-    "authors": [],
-    "clinical_criteria": [
+  "title": "Open Syndrome Measles",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "language": "English",
+  "location": "Brazil",
+  "organization": "Health Ministry",
+  "authors": [],
+  "clinical_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
         {
-            "type": "criteria",
-            "logical_operator": "AND",
-            "values": [
-                {
-                    "type": "symptom",
-                    "name": "Fever"
-                },
-                {
-                    "type": "symptom",
-                    "name": "Rash",
-                    "description": "maculopapular morbilliform cephalocaudal"
-                },
-                {
-                    "type": "AT_LEAST_ONE_OF",
-                    "logical_operator_arguments": [
-                        1
-                    ],
-                    "values": [
-                        {
-                            "type": "symptom",
-                            "name": "Cough"
-                        },
-                        {
-                            "type": "symptom",
-                            "name": "Runny nose"
-                        },
-                        {
-                            "type": "symptom",
-                            "name": "Conjunctivitis"
-                        }
-                    ]
-                }
-            ]
+          "type": "symptom",
+          "name": "Fever"
         },
         {
-            "type": "criteria",
-            "logical_operator": "OR",
-            "values": [
-                {
-                    "type": "patient_travel_history",
-                    "name": "Travel history",
-                    "description": "Trip to locations with measles virus circulation within the last 30 days"
-                },
-                {
-                    "type": "contact_history",
-                    "name": "Contact history",
-                    "description": "Contact with someone who traveled to a location with measles virus circulation within the last 30 days"
-                }
-            ]
-        }
-    ],
-    "notes": "",
-    "published_in": "https://opensyndrome.org",
-    "published_at": "2025-02-14T12:03:35Z",
-    "published_by": [],
-    "open_syndrome_version": "1.0.0",
-    "references": [
+          "type": "symptom",
+          "name": "Rash",
+          "description": "maculopapular morbilliform cephalocaudal"
+        },
         {
-            "citation": "",
-            "url": ""
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Cough"
+            },
+            {
+              "type": "symptom",
+              "name": "Runny nose"
+            },
+            {
+              "type": "symptom",
+              "name": "Conjunctivitis"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "epidemiological_history",
+          "name": "Travel history",
+          "description": "Trip to locations with measles virus circulation within the last 30 days"
+        },
+        {
+          "type": "epidemiological_history",
+          "name": "Contact history",
+          "description": "Contact with someone who traveled to a location with measles virus circulation within the last 30 days"
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-14T12:03:35Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "references": [
+    {
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo/vigilancia-do-sarampo"
+    }
+  ]
 }
