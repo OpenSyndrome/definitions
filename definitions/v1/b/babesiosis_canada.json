@@ -2,6 +2,7 @@
   "title": "Open Syndrome Babesiosis",
   "description": "Case definition for suspected babesiosis",
   "scope": "specific",
+  "category": "suspected",
   "version": "1.0.0",
   "open_syndrome_version": "1.0.0",
   "published_in": "https://opensyndrome.org",
