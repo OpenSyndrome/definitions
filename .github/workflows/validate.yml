@@ -19,6 +19,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: OpenSyndrome/schema
+        ref: 'main'
         path: schema
         token: ${{ secrets.SCHEMA_ACCESS_TOKEN }}
     - run: ls -la schema
