@@ -36,6 +36,6 @@ jobs:
         for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
           if [[ -f "$file" ]]; then
             echo "Validating $file"
-            ajv validate --spec draft2020 -s ./schema/schemas/v1/schema.json -d "$file" || exit 1
+            ajv validate --spec draft2020 -c ajv-formats -s ./schema/schemas/v1/schema.json -d "$file" || exit 1
           fi
         done
