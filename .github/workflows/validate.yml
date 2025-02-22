@@ -1,0 +1,41 @@
+name: Validate
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+    - name: Checkout schema repository
+      uses: actions/checkout@v4
+      with:
+        repository: OpenSyndrome/schema
+        path: schema
+        token: ${{ secrets.SCHEMA_ACCESS_TOKEN }}
+    - run: ls -la schema
+    - name: Install ajv-cli and ajv-formats
+      run: npm install -g ajv-cli ajv-formats
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v42
+      with:
+        files: |
+          **.json
+    - name: Validate changed JSONs
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          if [[ -f "$file" ]]; then
+            echo "Validating $file"
+            ajv validate --spec draft2020 -s ./schema/schemas/v1/schema.json -d "$file" || exit 1
+          fi
+        done
