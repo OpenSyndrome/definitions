@@ -1,4 +1,4 @@
-name: Validate
+name: JSONs validation
 
 on:
   push:
