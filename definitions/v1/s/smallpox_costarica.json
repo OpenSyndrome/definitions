@@ -15,7 +15,7 @@
   "published_by": [
     "Open Syndrome Initiative"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

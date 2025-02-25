@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "language": "English",
   "organization": "Africa CDC",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

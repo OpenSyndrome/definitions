@@ -16,7 +16,7 @@
   "authors": [
     "Ministry of Health Command and Control Center"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
       {
         "type": "criteria",
         "logical_operator": "OR",

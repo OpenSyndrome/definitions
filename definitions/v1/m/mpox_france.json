@@ -13,7 +13,7 @@
   "location": "France",
   "language": "English",
   "organization": "Ministère de la Santé et de la Prévention",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

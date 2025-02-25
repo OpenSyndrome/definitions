@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "language": "English",
   "organization": "Open Syndrome Initiative",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "diagnosis",
       "name": "Lyme disease",

@@ -10,10 +10,11 @@
   "published_by": [
     "Open Syndrome Initiative"
   ],
+  "status": "draft",
   "location": "Nigeria",
   "language": "English",
   "organization": "",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

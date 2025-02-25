@@ -10,7 +10,7 @@
   "language": "English",
   "location": "Germany",
   "organization": "Robert Koch Institute",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

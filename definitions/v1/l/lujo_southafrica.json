@@ -13,7 +13,7 @@
   "location": "South Africa",
   "language": "English",
   "organization": "National Institute for Communicable Diseases (NICD)",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

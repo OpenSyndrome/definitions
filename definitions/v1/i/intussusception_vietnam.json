@@ -13,7 +13,7 @@
   "location": "Vietnam",
   "language": "English",
   "organization": "Vietnam Ministry of Health",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

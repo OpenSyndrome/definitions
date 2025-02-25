@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "language": "English",
   "organization": "ECDC",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

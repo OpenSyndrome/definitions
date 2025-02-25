@@ -16,7 +16,7 @@
   "authors": [
     "Dirección General de Epidemiología"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

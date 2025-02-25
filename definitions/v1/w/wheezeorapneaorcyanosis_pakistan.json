@@ -23,7 +23,7 @@
     "Yildirim, Inci PhD",
     "Ali, S. Asad MBBS"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

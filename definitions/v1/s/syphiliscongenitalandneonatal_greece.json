@@ -12,7 +12,7 @@
   "location": "Greece",
   "language": "English",
   "organization": "National Public Health Organization",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

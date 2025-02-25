@@ -16,7 +16,7 @@
   "authors": [
     "Division of Disease Surveillance and Response"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

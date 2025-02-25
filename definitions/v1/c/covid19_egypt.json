@@ -13,7 +13,7 @@
   "location": "Egypt",
   "language": "English",
   "organization": "Ministry of health and population (MOHP)",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

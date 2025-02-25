@@ -17,7 +17,7 @@
     "Communicable Disease Branch",
     "Centre for Health Protection"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "OR",

@@ -17,7 +17,7 @@
     "Dirección General de Vigilancia de la Salud",
     "Ministerio de Salud Pública y Bienestar Social"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

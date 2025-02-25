@@ -8,7 +8,7 @@
   "location": "Pacific Islands",
   "language": "English",
   "organization": "Pacific Public Health Surveillance Network (PPHSN)",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "name": "Three or more loose or watery stools",

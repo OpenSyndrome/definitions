@@ -16,7 +16,7 @@
   "authors": [
     "Vector Borne Disease Sector - Disease Control Division"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

@@ -14,7 +14,7 @@
   "location": "Turkey",
   "language": "English",
   "organization": "Turkish Ministry of Health's General Directorate of Public Health",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

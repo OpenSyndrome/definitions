@@ -11,7 +11,7 @@
     "Ponencia de Alertas de Salud Pública y Planes de Preparación y Respuesta",
     "Ponencia de Salud Laboral"
   ],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

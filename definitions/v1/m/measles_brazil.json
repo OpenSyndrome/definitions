@@ -8,7 +8,7 @@
   "location": "Brazil",
   "organization": "Health Ministry",
   "authors": [],
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

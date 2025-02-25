@@ -13,7 +13,7 @@
   "location": "Bangladesh",
   "language": "English",
   "organization": "",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",

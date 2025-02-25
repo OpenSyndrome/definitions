@@ -7,7 +7,7 @@
   "location": "Americas",
   "language": "English",
   "organization": "PAHO",
-  "clinical_criteria": [
+  "inclusion_criteria": [
     {
       "type": "criteria",
       "logical_operator": "AND",
