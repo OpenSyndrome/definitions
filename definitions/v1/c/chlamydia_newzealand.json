@@ -1,0 +1,50 @@
+{
+  "title": "Open Syndrome Chlamydia",
+  "description": "Laboratory detection of Chlamydia trachomatis in a clinical specimen.",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-25T12:05:42Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "status": "draft",
+  "organization": "Institute of Environmental Science and Research",
+  "location": "New Zealand",
+  "language": "English",
+  "version": "1.0.0",
+  "category": "confirmed",
+  "scope": "broad",
+  "inclusion_criteria": [
+    {
+      "type": "diagnosis",
+      "name": "uncomplicated infection of the lower anogenital tract",
+      "description": "Anogenital includes urogenital and anorectal infection."
+    },
+    {
+      "logical_operator": "OR",
+      "type": "criteria",
+      "name": "PID (pelvic inflammatory disease) or epididymitis",
+      "values": [
+        {
+          "type": "diagnosis",
+          "name": "pelvic inflammatory disease",
+          "description": "PID"
+        },
+        {
+          "type": "diagnosis",
+          "name": "epididymitis"
+        }
+      ]
+    },
+    {
+      "name": "infection of another site (eg, eye or pharynx)",
+      "description": "eg, eye or pharynx",
+      "type": "diagnosis"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.esr.cri.nz/media/0nadzkgc/sticasedefinitions.pdf"
+    }
+  ]
+}
