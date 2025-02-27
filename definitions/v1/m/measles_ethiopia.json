@@ -1,0 +1,84 @@
+{
+  "title": "Open Syndrome Measles",
+  "description": "Case definition for measles",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-26T18:17:45Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Ethiopia",
+  "language": "English",
+  "organization": "WHO Africa",
+  "authors": [
+    "Mekonen Getahun",
+    "Berhane Beyene",
+    "Ayesheshem Ademe",
+    "Birke Teshome",
+    "Mesfin Tefera",
+    "Anjelo Asha",
+    "Aklog Afework",
+    "Yoseph HaileMariyam",
+    "Esete Assefa",
+    "Kathleen Gallagher"
+  ],
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "name": "Symptoms or professional judgement",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "name": "Measles symptoms",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Generalized maculopapular rash"
+            },
+            {
+              "type": "symptom",
+              "name": "Fever"
+            },
+            {
+              "type": "criteria",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [
+                1
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "cough"
+                },
+                {
+                  "type": "symptom",
+                  "name": "coryza"
+                },
+                {
+                  "type": "symptom",
+                  "name": "conjunctivitis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "professional_judgment",
+          "name": "any person in whom a clinician suspects measles"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Getahun, M., Beyene, B., Ademe, A. et al. Epidemiology of laboratory confirmed measles virus cases in Amhara Regional State of Ethiopia, 2004–2014. BMC Infect Dis 16, 133 (2016).",
+      "url": "https://doi.org/10.1186/s12879-016-1457-7"
+    }
+  ],
+  "status": "draft"
+}

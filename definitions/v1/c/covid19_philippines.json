@@ -1,0 +1,93 @@
+{
+  "title": "Open Syndrome COVID-19 (Philippines)",
+  "description": "COVID-19 suspected case definition for the Philippines",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Philippines",
+  "language": "English",
+  "organization": "Department of Health",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "fever"
+            },
+            {
+              "type": "symptom",
+              "name": "cough"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            3
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "fever"
+            },
+            {
+              "type": "symptom",
+              "name": "cough"
+            },
+            {
+              "type": "symptom",
+              "name": "general weakness"
+            },
+            {
+              "type": "symptom",
+              "name": "fatigue"
+            },
+            {
+              "type": "symptom",
+              "name": "headache"
+            },
+            {
+              "type": "symptom",
+              "name": "myalgia"
+            },
+            {
+              "type": "symptom",
+              "name": "sore throat"
+            },
+            {
+              "type": "symptom",
+              "name": "coryza"
+            },
+            {
+              "type": "symptom",
+              "name": "dyspnea"
+            },
+            {
+              "type": "symptom",
+              "name": "anorexia/nausea/vomiting/diarrhea"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "altered mental status"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "status": "draft"
+}

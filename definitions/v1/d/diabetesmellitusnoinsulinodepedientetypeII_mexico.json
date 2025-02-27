@@ -1,0 +1,52 @@
+{
+  "title": "Open Syndrome Non-Insulin-Dependent Diabetes Mellitus 'Type II' (E11-E14)",
+  "description": "",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2021-03-01T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Mexico",
+  "language": "English",
+  "organization": "Secretaría de Salud",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "poliuria"
+        },
+        {
+          "type": "symptom",
+          "name": "polidipsia"
+        },
+        {
+          "type": "symptom",
+          "name": "polifagia"
+        },
+        {
+          "type": "diagnostic_test",
+          "name": "Casual plasma glucose greater than or equal to 200 mg/dL.",
+          "operator": ">=",
+          "value": 200,
+          "unit": "mg/dL"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://epidemiologia.salud.gob.mx/gobmx/salud/documentos/manuales/DefinicionesOperacionales_Padecimientos_Sujetos_a_VE.pdf"
+    }
+  ],
+  "notes": [
+    "Type of diabetes in which there is insulin resistance and a concomitant deficiency in its production, which can be absolute or relative. Patients are usually over 30 years of age when the diagnosis is made, they are obese and have relatively few classic symptoms."
+  ],
+  "status": "draft"
+}

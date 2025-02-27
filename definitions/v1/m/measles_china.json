@@ -1,0 +1,68 @@
+{
+  "title": "Open Syndrome Measles",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-27T17:48:51Z",
+  "published_by": [],
+  "status": "draft",
+  "language": "English",
+  "organization": "China CDC",
+  "location": "China",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "name": "Symptoms or professional diagnosis",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Fever"
+            },
+            {
+              "type": "symptom",
+              "name": "Rash (maculopapular rash)"
+            },
+            {
+              "type": "symptom",
+              "name": "Cough"
+            },
+            {
+              "type": "criteria",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [
+                1
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Catarrhal fever"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Conjunctivitis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Measles diagnosed by any trained health worker"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.chinacdc.cn/jkyj/crb2/yl/mz/jswj_mz/202409/t20240909_299153.html"
+    }
+  ]
+}

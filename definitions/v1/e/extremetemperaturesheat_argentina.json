@@ -1,0 +1,91 @@
+{
+  "title": "Open Syndrome Heat Exposure",
+  "description": "Case definition for suspected heat exposure in individuals with history of extreme heat exposure during Early Temperature Extreme Alert by National Meteorological Service, and clinical symptoms attributable to high body temperature (39\u00b0C or higher) and 2 or more of the following: sweating, nausea/vomiting, hypotension, tachycardia, tachypnea, altered consciousness, seizures, fainting. In infants: excessive sweating, irritated skin due to sweating.",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "location": "Argentina",
+  "language": "English",
+  "organization": "Ministerio de Salud",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "High body temperature",
+          "attribute": "body_temperature",
+          "operator": ">=",
+          "value": 39,
+          "unit": "celsius"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            2
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Warm skin"
+            },
+            {
+              "type": "symptom",
+              "name": "Sweating"
+            },
+            {
+              "type": "symptom",
+              "name": "Nausea/vomiting"
+            },
+            {
+              "type": "symptom",
+              "name": "Hypotension"
+            },
+            {
+              "type": "symptom",
+              "name": "Tachycardia"
+            },
+            {
+              "type": "symptom",
+              "name": "Tachypnea"
+            },
+            {
+              "type": "symptom",
+              "name": "Altered consciousness"
+            },
+            {
+              "type": "symptom",
+              "name": "Seizures"
+            },
+            {
+              "type": "symptom",
+              "name": "Fainting"
+            },
+            {
+              "type": "symptom",
+              "name": "Excessive sweating (infants)",
+              "description": "Irritated skin due to sweating (infants)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T12:20:55Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "notes": [
+    "ICD-10 code HEAT: X30 (Exposure to excessive natural heat), T67 (Effects of heat and light)"
+  ],
+  "references": [
+    {
+      "url": "https://www.argentina.gob.ar/sites/default/files/2019/10/msal-manual_de_normas_y_procedimientos_de_vigilancia_y_control_de_eno_2022.pdf"
+    }
+  ],
+  "status": "draft"
+}

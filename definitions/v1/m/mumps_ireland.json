@@ -1,0 +1,41 @@
+{
+  "title": "Open Syndrome Mumps",
+  "description": "Mumps (Mumps virus)",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2019-01-24T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Ireland",
+  "language": "English",
+  "organization": "Health Protection Surveillance Centre",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Fever"
+        },
+        {
+          "type": "symptom",
+          "name": "Sudden onset of unilateral or bilateral tender swelling of the parotid or other salivary glands"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.hpsc.ie/a-z/vaccinepreventable/mumps/casedefinition/"
+    }
+  ],
+  "notes": [
+    "Mumps may also present as aseptic meningitis, encephalitis, hearing loss, orchitis, oophoritis, parotitis or other salivary gland swelling, mastitis or pancreatitis."
+  ],
+  "status": "draft"
+}

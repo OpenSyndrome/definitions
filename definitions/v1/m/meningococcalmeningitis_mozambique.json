@@ -1,0 +1,68 @@
+{
+  "title": "Open Syndrome Meningococcal Meningitis",
+  "description": "Suspected case definition of meningococcal meningitis in Mozambique",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://docs.bvsalud.org/biblioref/2021/11/1344189/vigilancia-integrada-de-doencas-e-resposta-em-mocambique.pdf",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Mozambique",
+  "language": "English",
+  "organization": "Ministry of Health of Mozambique",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Sudden fever",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "criteria",
+              "name": "Rectal fever",
+              "description": "Temperature > 38.5°C in rectum"
+            },
+            {
+              "type": "criteria",
+              "name": "Axillary fever",
+              "description": "Temperature ≥ 38.0°C in armpits"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [1],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Stiff neck"
+            },
+            {
+              "type": "symptom",
+              "name": "Altered consciousness"
+            },
+            {
+              "type": "symptom",
+              "name": "Meningeal signs",
+              "description": "Any other meningeal signs"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Integrated Disease Surveillance and Response in Mozambique",
+      "url": "https://docs.bvsalud.org/biblioref/2021/11/1344189/vigilancia-integrada-de-doencas-e-resposta-em-mocambique.pdf"
+    }
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Open Syndrome Influenza-Like Illness (ILI) Africa CDC",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "language": "English",
+  "organization": "Africa CDC",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Measured fever",
+          "attribute": "body_temperature",
+          "operator": ">=",
+          "value": 38,
+          "unit": "degrees Celsius"
+        },
+        {
+          "type": "symptom",
+          "name": "Cough"
+        },
+        {
+          "type": "symptom",
+          "name": "Onset within the last 10 days"
+        }
+      ]
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T19:20:46Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "references": [
+    {
+      "url": "https://au.int/sites/default/files/documents/38350-doc-protocol_for_enhanced_sari_and_ili_surveillance_for_covid-19_in_africa_eng.pdf"
+    }
+  ],
+  "location": "Africa",
+  "status": "draft"
+}

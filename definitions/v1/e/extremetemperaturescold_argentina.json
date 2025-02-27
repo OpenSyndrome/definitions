@@ -1,0 +1,74 @@
+{
+  "title": "Open Syndrome Cold Exposure",
+  "description": "Case definition for suspected cold exposure in individuals with history of extreme cold exposure during Early Temperature Extreme Alert by National Meteorological Service, and clinical symptoms attributable to low body temperature (36°C or lower) and 2 or more of the following: shivering, altered consciousness, weak pulse, slow breathing, local tissue damage due to freezing.",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "location": "Argentina",
+  "language": "English",
+  "organization": "Ministerio de Salud",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Low body temperature",
+          "attribute": "body_temperature",
+          "operator": "<=",
+          "value": 36,
+          "unit": "celsius"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            2
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Shivering"
+            },
+            {
+              "type": "symptom",
+              "name": "Altered consciousness"
+            },
+            {
+              "type": "symptom",
+              "name": "Weak pulse"
+            },
+            {
+              "type": "symptom",
+              "name": "Slow breathing"
+            },
+            {
+              "type": "symptom",
+              "name": "Local tissue damage due to freezing"
+            },
+            {
+              "type": "symptom",
+              "name": "Cold, red skin in babies"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T12:20:55Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "notes": [
+    "ICD-10 code COLD: X31 (Exposure to excessive natural cold)"
+  ],
+  "references": [
+    {
+      "url": "https://www.argentina.gob.ar/sites/default/files/2019/10/msal-manual_de_normas_y_procedimientos_de_vigilancia_y_control_de_eno_2022.pdf"
+    }
+  ],
+  "status": "draft"
+}

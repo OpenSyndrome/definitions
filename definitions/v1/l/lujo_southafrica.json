@@ -1,0 +1,115 @@
+{
+  "title": "Open Syndrome Lujo Hemorrhagic Fever",
+  "description": "Case definition for suspected Lujo viral hemorrhagic fever",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "South Africa",
+  "language": "English",
+  "organization": "National Institute for Communicable Diseases (NICD)",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "fever",
+          "description": ">38.5°C"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            3
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "severe headache"
+            },
+            {
+              "type": "symptom",
+              "name": "myalgia"
+            },
+            {
+              "type": "symptom",
+              "name": "diarrhea"
+            },
+            {
+              "type": "symptom",
+              "name": "pharyngitis"
+            },
+            {
+              "type": "symptom",
+              "name": "abdominal pain"
+            },
+            {
+              "type": "symptom",
+              "name": "retrosternal chest pain"
+            },
+            {
+              "type": "symptom",
+              "name": "respiratory distress"
+            },
+            {
+              "type": "symptom",
+              "name": "moderate thrombocytopenia"
+            },
+            {
+              "type": "symptom",
+              "name": "increased AST"
+            },
+            {
+              "type": "symptom",
+              "name": "leukocytosis"
+            },
+            {
+              "type": "symptom",
+              "name": "proteinuria"
+            },
+            {
+              "type": "symptom",
+              "name": "neurological signs"
+            },
+            {
+              "type": "symptom",
+              "name": "sudden inexplicable death"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "values": [
+            {
+              "type": "epidemiological_history",
+              "name": "contact with Lujo case",
+              "description": "Contact with a suspected, probable or confirmed Lujo case within past 21 days"
+            },
+            {
+              "type": "epidemiological_history",
+              "name": "contact with animal",
+              "description": "Contact with a dead or sick animal especially rodents within past 21 days"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.nicd.ac.za/wp-content/uploads/2021/08/VIRAL-HAEMORRHAGIC-FEVER-DISEASES_Lujo-case-definition.pdf"
+    }
+  ],
+  "status": "draft"
+}

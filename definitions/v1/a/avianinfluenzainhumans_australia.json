@@ -1,0 +1,107 @@
+{
+  "title": "Open Syndrome Avian Influenza in Humans (AVIH)",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2015-07-01T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Australia",
+  "language": "English",
+  "organization": "Government of Western Australia",
+  "authors": [
+    "Department of Health Public Health and Clinical Services Division"
+  ],
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "criteria",
+              "logical_operator": "OR",
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Fever",
+                  "description": ">38°C"
+                },
+                {
+                  "type": "symptom",
+                  "name": "history of fever"
+                }
+              ]
+            },
+            {
+              "type": "criteria",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [
+                1
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "cough"
+                },
+                {
+                  "type": "symptom",
+                  "name": "rhinorrhoea"
+                },
+                {
+                  "type": "symptom",
+                  "name": "myalgia"
+                },
+                {
+                  "type": "symptom",
+                  "name": "headache"
+                },
+                {
+                  "type": "symptom",
+                  "name": "dyspnoea"
+                },
+                {
+                  "type": "symptom",
+                  "name": "diarrhoea"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "symptom",
+          "name": "conjunctivitis"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Infiltrates or evidence of an acute pneumonia on chest radiograph"
+            },
+            {
+              "type": "symptom",
+              "name": "acute respiratory insufficiency",
+              "description": "hypoxaemia, severe tachypnoea"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "http://www.health.gov.au/casedefinitions"
+    }
+  ],
+  "notes": [],
+  "status": "draft"
+}

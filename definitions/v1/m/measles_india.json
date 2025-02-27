@@ -1,0 +1,52 @@
+{
+  "title": "Open Syndrome Measles",
+  "description": "Case definition for suspected measles in India",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "India",
+  "language": "English",
+  "organization": "Ministry of Health and Family Welfare",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "name": "Fever with rash",
+          "logical_operator": "AND",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Fever"
+            },
+            {
+              "type": "symptom",
+              "name": "Maculopapular rash",
+              "description": "non-vesicular"
+            }
+          ]
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Clinical suspicion of measles",
+          "description": "Any person in whom a health worker or clinician suspects measles infection"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Guidelines for Measles Surveillance - India",
+      "url": "https://drive.google.com/file/d/1qX0lxKjFe_qlSSnqP5pvW2gOrTNPvdrS/view"
+    }
+  ],
+  "status": "draft"
+}

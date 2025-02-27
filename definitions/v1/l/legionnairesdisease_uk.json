@@ -1,0 +1,41 @@
+{
+  "title": "Open Syndrome Probable Legionnaires' Disease",
+  "description": "Case definition for a probable case of Legionnaires' disease in the context of an outbreak",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "location": "England",
+  "language": "English",
+  "organization": "Public Health England",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "name": "Suspected case of pneumonia and exposure to an outbreak",
+      "values": [
+        {
+          "type": "diagnosis",
+          "name": "Pneumonia",
+          "description": "Clinical or radiological diagnosis of pneumonia"
+        },
+        {
+          "type": "epidemiological_history",
+          "name": "Outbreak exposure",
+          "description": "Location and onset date(s) meet the outbreak-specific case definition for the exposure category: community-acquired, healthcare-associated and travel-associated."
+        }
+      ]
+    }
+  ],
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T13:23:40Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "references": [
+    {
+      "url": "https://www.gov.uk/government/publications/legionnaires-disease-clinical-case-definitions/legionnaires-disease-case-definitions"
+    }
+  ],
+  "status": "draft"
+}

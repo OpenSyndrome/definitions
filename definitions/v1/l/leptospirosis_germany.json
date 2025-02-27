@@ -1,0 +1,71 @@
+{
+  "title": "Open Syndrome Leptospirosis",
+  "description": "Case definition for suspected leptospirosis in Germany",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T09:13:10Z",
+  "language": "English",
+  "location": "Germany",
+  "organization": "Robert Koch Institute",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "General symptoms"
+        },
+        {
+          "type": "symptom",
+          "name": "Dyspnea (respiratory distress)"
+        },
+        {
+          "type": "symptom",
+          "name": "Fever"
+        },
+        {
+          "type": "symptom",
+          "name": "Hemorrhagia (e.g., pulmonary hemorrhage, subconjunctival hemorrhage)"
+        },
+        {
+          "type": "symptom",
+          "name": "Cough"
+        },
+        {
+          "type": "symptom",
+          "name": "Icterus (jaundice)"
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Meningitis or meningoencephalitis"
+        },
+        {
+          "type": "symptom",
+          "name": "Myocarditis (myocardial inflammation)"
+        },
+        {
+          "type": "symptom",
+          "name": "Renal function disorder"
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Death due to disease"
+        }
+      ]
+    }
+  ],
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "references": [
+    {
+      "citation": "",
+      "url": "https://www.rki.de/DE/Content/Infekt/IfSG/Falldefinition/Downloads/Falldefinitionen_des_RKI_2023.pdf?__blob=publicationFile"
+    }
+  ],
+  "status": "draft"
+}

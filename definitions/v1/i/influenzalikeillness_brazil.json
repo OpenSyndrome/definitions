@@ -1,0 +1,75 @@
+{
+  "title": "Open Syndrome Influenza-like Illness (ILI)",
+  "description": "Standardized case definition of suspected influenza-like illness",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org/case-definitions",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Brazil",
+  "language": "English",
+  "organization": "Ministry of Health",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Fever",
+          "description": "Sudden onset fever, even if self-reported"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Cough"
+            },
+            {
+              "type": "symptom",
+              "name": "Sore throat"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [1],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Headache"
+            },
+            {
+              "type": "symptom",
+              "name": "Myalgia"
+            },
+            {
+              "type": "symptom",
+              "name": "Arthralgia"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "type": "diagnosis",
+      "name": "Other specific diagnosis",
+      "description": "Presence of any other specific diagnosis that explains the symptoms"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sudeste/hc-ufu/saude/epidemiologia/protocolos/protocolo/protocolo-de-sindrome-gripal-e-sindrome-respiratoria-aguda-grave-com-enfase-em-influenza"
+    }
+  ],
+  "status": "draft"
+}

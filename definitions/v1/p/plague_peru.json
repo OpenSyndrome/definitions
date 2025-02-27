@@ -1,0 +1,60 @@
+{
+  "title": "Open Syndrome Suspected Plague",
+  "description": "Case definition for suspected plague",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2011-01-01T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Peru",
+  "language": "English",
+  "organization": "Peru Ministry of Health",
+  "authors": [
+    "Dirección General de Epidemiología"
+  ],
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Clinical presentation compatible with plague"
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "name": "History of exposure to infected humans or animals",
+          "values": [
+            {
+              "type": "epidemiological_history",
+              "name": "Exposure to infected humans or animals"
+            },
+            {
+              "type": "professional_judgment",
+              "name": "Evidence of flea bites",
+              "description": "Indicates presence of fleas on the patient"
+            },
+            {
+              "type": "epidemiological_history",
+              "name": "Residence or travel to an endemic area, within the 10 days prior"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "http://bvs.minsa.gob.pe/local/MINSA/3255.pdf"
+    }
+  ],
+  "status": "draft"
+}

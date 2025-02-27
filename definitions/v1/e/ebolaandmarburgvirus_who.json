@@ -1,0 +1,123 @@
+{
+  "title": "Open Syndrome Ebola Marburg Virus Cases",
+  "description": "",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-08T18:26:37Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "open_syndrome_version": "1.0.0",
+  "location": "Global",
+  "language": "English",
+  "organization": "Open Syndrome Initiative",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "name": "High fever and epidemiological history",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Sudden onset of high fever"
+            },
+            {
+              "type": "criteria",
+              "logical_operator": "OR",
+              "values": [
+                {
+                  "type": "epidemiological_history",
+                  "name": "Contact with a suspected, probable, or confirmed Ebola case"
+                },
+                {
+                  "type": "epidemiological_history",
+                  "name": "Contact with a dead or sick animal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "logical_operator": "AND",
+          "name": "High fever and at least 3 of the following symptoms",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Sudden onset of high fever"
+            },
+            {
+              "type": "criteria",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [
+                3
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Headache"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Lethargy"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Anorexia/loss of appetite"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Aching muscles or joints"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Stomach pain"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Difficulty swallowing"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Vomiting"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Difficulty breathing"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Diarrhea"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Hiccups"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "symptom",
+          "name": "Inexplicable bleeding"
+        },
+        {
+          "type": "professional_judgment",
+          "name": "Sudden, inexplicable death"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.who.int/emergencies/outbreak-toolkit/disease-outbreak-toolboxes/ebola-and-marburg-virus-outbreak-toolbox"
+    }
+  ],
+  "status": "draft"
+}
