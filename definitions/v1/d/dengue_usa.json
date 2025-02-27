@@ -116,5 +116,6 @@
   "notes": [
     "Case definition based on Chief Complaint Discharge Diagnosis (CCDD) parsed field",
     "No exclusion terms or codes are used in this query"
-  ]
+  ],
+  "status": "draft"
 }

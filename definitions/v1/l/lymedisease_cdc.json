@@ -54,5 +54,6 @@
       "url": "https://knowledgerepository.syndromicsurveillance.org/lyme-disease-centers-disease-control-and-prevention"
     }
   ],
-  "location": "CDC"
+  "location": "CDC",
+  "status": "draft"
 }

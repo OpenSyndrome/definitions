@@ -36,7 +36,10 @@
   "notes": [
     "If there is a cholera epidemic, a suspected case is a person age 5 years or more with acute watery diarrhoea, with or without vomiting."
   ],
-  "references": [{
-    "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Integrated-Disease-Surveillance-and-Response-Ghana-Guidelines.pdf"
-  }]
+  "references": [
+    {
+      "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Integrated-Disease-Surveillance-and-Response-Ghana-Guidelines.pdf"
+    }
+  ],
+  "status": "draft"
 }

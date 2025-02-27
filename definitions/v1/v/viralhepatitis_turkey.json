@@ -10,7 +10,6 @@
   "published_by": [
     "Open Syndrome Initiative"
   ],
-  "category": "suspected",
   "location": "Turkey",
   "language": "English",
   "organization": "Turkish Ministry of Health's General Directorate of Public Health",
@@ -62,5 +61,6 @@
   ],
   "notes": [
     "It should be remembered that it may be mostly asymptomatic and/or anicteric"
-  ]
+  ],
+  "status": "draft"
 }
