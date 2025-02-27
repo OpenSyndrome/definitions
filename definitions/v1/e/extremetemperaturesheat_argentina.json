@@ -24,7 +24,7 @@
         {
           "type": "criteria",
           "logical_operator": "AT_LEAST",
-          "logical_operator_argument": [
+          "logical_operator_arguments": [
             2
           ],
           "values": [
