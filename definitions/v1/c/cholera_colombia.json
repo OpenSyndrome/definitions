@@ -1,0 +1,40 @@
+{
+  "title": "Open Syndrome Confirmed Case of Cholera",
+  "description": "Laboratory confirmation with positive fecal culture for toxigenic Vibrio cholerae O1 or O139",
+  "scope": "specific",
+  "category": "confirmed",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-27T16:16:26Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Colombia",
+  "language": "English",
+  "organization": "Instituto Nacional de Salud",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "name": "Confirmation by Laboratory with Positive Culture of Stool",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "diagnostic_test",
+          "name": "Confirmation by Laboratory with Positive Culture of Stool for Vibrio cholerae O1"
+        },
+        {
+          "type": "diagnostic_test",
+          "name": "Confirmation by Laboratory with Positive Culture of Stool for O139 Toxigenic"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Colombia. Instituto Nacional de Salud. Protocolo de Vigilancia\nen Salud Pública de Cólera. versión 4. [Internet] 2022.\nhttps://doi.org/10.33610/infoeventos.5",
+      "url": "https://www.ins.gov.co/buscador-eventos/Lineamientos/Pro_C%C3%B3lera.pdf"
+    }
+  ],
+  "status": "draft"
+}

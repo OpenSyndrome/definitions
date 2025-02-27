@@ -1,0 +1,99 @@
+{
+  "title": "Open Syndrome Suspected Case of Equine Encephalitis",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-02-27T17:02:03Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "status": "draft",
+  "open_syndrome_version": "1.0.0",
+  "scope": "broad",
+  "version": "1.0.0",
+  "language": "English",
+  "organization": "Ministerio de Salud Pública y Asistencia Social",
+  "location": "Guatemala",
+  "category": "suspected",
+  "inclusion_criteria": [
+    {
+      "type": "criteria",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Sudden onset fever"
+        },
+        {
+          "type": "criteria",
+          "name": "One or more of the following neurological signs",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Headache"
+            },
+            {
+              "type": "symptom",
+              "name": "Disorientation"
+            },
+            {
+              "type": "symptom",
+              "name": "Tremors"
+            },
+            {
+              "type": "symptom",
+              "name": "Convulsions"
+            },
+            {
+              "type": "symptom",
+              "name": "Paresthesias"
+            },
+            {
+              "type": "symptom",
+              "name": "Paralysis"
+            },
+            {
+              "type": "symptom",
+              "name": "Somnolence"
+            },
+            {
+              "type": "symptom",
+              "name": "Alteration of consciousness"
+            },
+            {
+              "type": "symptom",
+              "name": "Stupor"
+            },
+            {
+              "type": "symptom",
+              "name": "Rigidity of neck"
+            }
+          ]
+        },
+        {
+          "type": "criteria",
+          "name": "Travel history",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "epidemiological_history",
+              "name": "Visited regions with presence of equids (horses, donkeys and mules)"
+            },
+            {
+              "type": "epidemiological_history",
+              "name": "Suffered mosquito bites in areas with suspected equine encephalitis deaths"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Protocolos de Vigilancia Epidemiológica Enfermedades Zoonóticas. Ministerio de Salud Pública y Asistencia Social. Guatemala. 2018.",
+      "url": "http://bvs.gt/eblueinfo/VS/VS_008.pdf"
+    }
+  ]
+}
