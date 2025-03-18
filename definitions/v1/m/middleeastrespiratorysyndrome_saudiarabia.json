@@ -47,7 +47,7 @@
                 ]
               },
               {
-              "type": "syndrome",
+              "type": "criteria",
               "name": "Blood count abnormalities",
               "logical_operator": "OR",
               "values": [

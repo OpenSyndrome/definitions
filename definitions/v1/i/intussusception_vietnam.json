@@ -205,7 +205,7 @@
               ],
               "values": [
                 {
-                  "type": "demographic_criteria",
+                  "type": "criteria",
                   "name": "Predisposing factors: age <1 year and male sex",
                   "logical_operator": "AND",
                   "values": [
