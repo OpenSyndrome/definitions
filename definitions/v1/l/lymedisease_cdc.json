@@ -5,7 +5,7 @@
   "category": "suspected",
   "version": "1.0.0",
   "language": "English",
-  "organization": "Open Syndrome Initiative",
+  "organization": "U.S. Centers for Disease Control and Prevention (CDC)",
   "inclusion_criteria": [
     {
       "type": "diagnosis",
@@ -54,6 +54,6 @@
       "url": "https://knowledgerepository.syndromicsurveillance.org/lyme-disease-centers-disease-control-and-prevention"
     }
   ],
-  "location": "CDC",
+  "location": "United States",
   "status": "draft"
 }

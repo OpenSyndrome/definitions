@@ -26,7 +26,7 @@
           "name": "Weakness or floppiness of the limbs in a child 15 years old or less",
           "values": [
             {
-              "type": "criteria",
+              "type": "symptom",
               "name": "Acute flaccid paralysis",
               "description": "Weakness or floppiness of the limbs of sudden onset not due to trauma"
             },
