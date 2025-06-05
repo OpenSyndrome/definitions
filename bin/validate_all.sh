@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Directory to search for JSON files (current directory by default)
-SEARCH_DIR="${2:-.}"
+SEARCH_DIR="${2:-./definitions/}"
 
 # Schema file path (default: ./schema/schemas/v1/schema.json)
-SCHEMA_FILE="${1:-./schema/schemas/v1/schema.json}"
+SCHEMA_FILE="${1:-../osi-schema/schemas/v1/schema.json}"
 
 # Colors for output
 GREEN='\033[0;32m'
