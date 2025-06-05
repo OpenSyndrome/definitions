@@ -12,7 +12,7 @@
   "organization": "Robert Koch Institute",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {

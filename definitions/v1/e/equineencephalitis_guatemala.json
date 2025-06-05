@@ -15,7 +15,7 @@
   "category": "suspected",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -23,7 +23,7 @@
           "name": "Sudden onset fever"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "One or more of the following neurological signs",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "Travel history",
           "logical_operator": "OR",
           "values": [

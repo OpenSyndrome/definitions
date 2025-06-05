@@ -10,7 +10,7 @@
   "organization": "Ministerio de Salud",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -22,7 +22,7 @@
           "unit": "celsius"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             2

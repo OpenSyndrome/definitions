@@ -15,7 +15,7 @@
   "organization": "Ministry of Health",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -24,7 +24,7 @@
           "description": "Sudden onset fever, even if self-reported"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "OR",
           "values": [
             {
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [1],
           "values": [

@@ -22,7 +22,7 @@
     },
     {
       "logical_operator": "OR",
-      "type": "criteria",
+      "type": "criterion",
       "name": "PID (pelvic inflammatory disease) or epididymitis",
       "values": [
         {

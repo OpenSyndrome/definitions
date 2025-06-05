@@ -15,18 +15,18 @@
   "organization": "Vietnam Ministry of Health",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             2
           ],
           "values": [
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Evidence of intestinal obstruction",
               "logical_operator": "AND",
               "values": [
@@ -35,7 +35,7 @@
                   "name": "bile-stained vomiting"
                 },
                 {
-                  "type": "criteria",
+                  "type": "criterion",
                   "logical_operator": "OR",
                   "values": [
                     {
@@ -51,7 +51,7 @@
               ]
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Features of intestinal invagination",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
@@ -85,7 +85,7 @@
               ]
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Evidence of intestinal vascular compromise",
               "logical_operator": "OR",
               "values": [
@@ -106,18 +106,18 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
                 1
               ],
               "values": [
                 {
-                  "type": "criteria",
+                  "type": "criterion",
                   "name": "Evidence of intestinal obstruction",
                   "logical_operator": "AND",
                   "values": [
@@ -126,7 +126,7 @@
                       "name": "bile-stained vomiting"
                     },
                     {
-                      "type": "criteria",
+                      "type": "criterion",
                       "logical_operator": "OR",
                       "values": [
                         {
@@ -142,7 +142,7 @@
                   ]
                 },
                 {
-                  "type": "criteria",
+                  "type": "criterion",
                   "name": "Features of intestinal invagination",
                   "logical_operator": "AT_LEAST",
                   "logical_operator_arguments": [
@@ -176,7 +176,7 @@
                   ]
                 },
                 {
-                  "type": "criteria",
+                  "type": "criterion",
                   "name": "Evidence of intestinal vascular compromise",
                   "logical_operator": "OR",
                   "values": [
@@ -197,7 +197,7 @@
               ]
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Evidence of intestinal vascular compromise",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
@@ -205,7 +205,7 @@
               ],
               "values": [
                 {
-                  "type": "criteria",
+                  "type": "criterion",
                   "name": "Predisposing factors: age <1 year and male sex",
                   "logical_operator": "AND",
                   "values": [

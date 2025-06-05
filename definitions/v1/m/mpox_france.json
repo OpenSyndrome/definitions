@@ -15,7 +15,7 @@
   "organization": "Ministère de la Santé et de la Prévention",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -24,7 +24,7 @@
           "description": "evocative of mpox"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "OR",
           "values": [
             {

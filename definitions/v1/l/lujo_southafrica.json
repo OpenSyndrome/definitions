@@ -15,7 +15,7 @@
   "organization": "National Institute for Communicable Diseases (NICD)",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -24,7 +24,7 @@
           "description": ">38.5°C"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             3
@@ -85,7 +85,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             1

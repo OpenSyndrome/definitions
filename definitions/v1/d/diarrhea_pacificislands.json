@@ -10,7 +10,7 @@
   "organization": "Pacific Public Health Surveillance Network (PPHSN)",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "symptom",
       "name": "Three or more loose or watery stools",
       "attribute": "stools",
       "operator": ">=",
@@ -18,7 +18,7 @@
       "unit": "occurrences"
     },
     {
-      "type": "criteria",
+      "type": "professional_judgment",
       "name": "Less than 24 hours",
       "attribute": "Time period",
       "operator": "<",

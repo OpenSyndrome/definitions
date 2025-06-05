@@ -16,7 +16,7 @@
   "organization": "Nigeria Centre for Disease Control and Prevention",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "description": "Any patient hospitalized with severe febrile disease with accompanying vital organ dysfunction diagnosed clinically.",
       "values": [

@@ -18,7 +18,7 @@
   ],
   "inclusion_criteria": [
       {
-        "type": "criteria",
+        "type": "criterion",
         "logical_operator": "OR",
         "values": [
           {
@@ -26,12 +26,12 @@
             "name": "fever with/without respiratory symptoms"
           },
           {
-            "type": "criteria",
+            "type": "criterion",
             "logical_operator": "AND",
             "name": "Gastrointestinal symptoms with blood count abnormalities",
             "values": [
               {
-                "type": "criteria",
+                "type": "criterion",
                 "logical_operator": "AT_LEAST",
                 "name": "gastrointestinal symptoms",
                 "logical_operator_arguments": [1],
@@ -47,17 +47,17 @@
                 ]
               },
               {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Blood count abnormalities",
               "logical_operator": "OR",
               "values": [
                 {
-                  "type": "criteria",
+                  "type": "diagnostic_test",
                   "name": "Leukopenia",
                   "description": "WBC ≤ 3.5x10⁹/L"
                 },
                 {
-                  "type": "criteria",
+                  "type": "diagnostic_test",
                   "name": "Thrombocytopenia",
                   "description": "Platelets < 150x10⁹/L"
                 }

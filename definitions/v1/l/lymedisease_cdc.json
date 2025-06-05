@@ -16,12 +16,12 @@
       }
     },
     {
-      "type": "criteria",
+      "type": "criterion",
       "name": "Bull's eye rashes",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {

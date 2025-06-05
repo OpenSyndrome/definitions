@@ -15,11 +15,11 @@
   "organization": "Ministry of health and population (MOHP)",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "A. Any one of the epidemiological history with any of the clinical features",
           "logical_operator": "OR",
           "values": [
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "B. Assessing the presence of at least two of the following clinical features",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "C. Severe Acute Respiratory Infection (SARI) with no other obvious cause",
           "logical_operator": "OR",
           "values": [

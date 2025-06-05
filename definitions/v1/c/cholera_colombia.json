@@ -15,7 +15,7 @@
   "organization": "Instituto Nacional de Salud",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "name": "Confirmation by Laboratory with Positive Culture of Stool",
       "logical_operator": "OR",
       "values": [

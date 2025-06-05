@@ -15,7 +15,7 @@
   "organization": "Public Health Agency of Canada",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -23,7 +23,7 @@
           "name": "fever"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [1],
           "values": [

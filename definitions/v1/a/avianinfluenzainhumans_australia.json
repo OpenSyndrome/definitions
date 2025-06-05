@@ -18,15 +18,15 @@
   ],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "OR",
               "values": [
                 {
@@ -41,7 +41,7 @@
               ]
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
                 1
@@ -80,7 +80,7 @@
           "name": "conjunctivitis"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {

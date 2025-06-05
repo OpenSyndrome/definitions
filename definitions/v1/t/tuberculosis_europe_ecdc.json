@@ -8,7 +8,7 @@
   "organization": "ECDC",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -16,7 +16,7 @@
           "name": "Signs, symptoms and/or radiological findings consistent with active tuberculosis in any site"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "OR",
           "values": [
             {

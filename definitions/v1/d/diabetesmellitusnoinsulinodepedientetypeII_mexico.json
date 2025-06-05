@@ -15,7 +15,7 @@
   "organization": "Secretaría de Salud",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {

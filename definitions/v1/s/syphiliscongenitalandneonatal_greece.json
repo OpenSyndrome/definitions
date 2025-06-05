@@ -14,7 +14,7 @@
   "organization": "National Public Health Organization",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {

@@ -15,11 +15,11 @@
   "organization": "Turkish Ministry of Health's General Directorate of Public Health",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {
@@ -27,7 +27,7 @@
               "name": "Sudden onset of abdominal pain, loss of appetite, weakness, nausea, vomiting"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "At least one of the following clinical criteria",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [

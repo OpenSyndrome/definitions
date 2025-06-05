@@ -15,7 +15,7 @@
   "organization": "CDC",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
@@ -53,7 +53,7 @@
           }
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "SNOMED diagnoses",
           "logical_operator": "OR",
           "values": [

@@ -15,11 +15,11 @@
   "organization": "Open Syndrome Initiative",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "name": "High fever and epidemiological history",
           "values": [
@@ -28,7 +28,7 @@
               "name": "Sudden onset of high fever"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "OR",
               "values": [
                 {
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "name": "High fever and at least 3 of the following symptoms",
           "values": [
@@ -53,7 +53,7 @@
               "name": "Sudden onset of high fever"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
                 3

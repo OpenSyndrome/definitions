@@ -18,11 +18,11 @@
   ],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "Weakness or floppiness of the limbs in a child 15 years old or less",
           "values": [
             {

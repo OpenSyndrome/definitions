@@ -10,7 +10,7 @@
   "organization": "Public Health England",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "name": "Suspected case of pneumonia and exposure to an outbreak",
       "values": [

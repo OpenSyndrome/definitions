@@ -15,7 +15,7 @@
   "organization": "Ministry of Health of Mozambique",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -24,19 +24,19 @@
           "logical_operator": "OR",
           "values": [
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Rectal fever",
               "description": "Temperature > 38.5°C in rectum"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "name": "Axillary fever",
               "description": "Temperature ≥ 38.0°C in armpits"
             }
           ]
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [1],
           "values": [

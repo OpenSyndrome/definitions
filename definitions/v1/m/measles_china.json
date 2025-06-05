@@ -14,12 +14,12 @@
   "location": "China",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "name": "Symptoms or professional diagnosis",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AND",
           "values": [
             {
@@ -35,7 +35,7 @@
               "name": "Cough"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
                 1

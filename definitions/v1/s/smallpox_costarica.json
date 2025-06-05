@@ -17,7 +17,7 @@
   ],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -28,7 +28,7 @@
           "value": "2022-03-15"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "One or more of the following symptoms",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
@@ -68,7 +68,7 @@
   "exclusion_criteria": [
     {
       "name": "Cause of ruling out acute exanthema",
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {

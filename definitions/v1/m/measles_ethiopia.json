@@ -27,12 +27,12 @@
   ],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "name": "Symptoms or professional judgement",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "Measles symptoms",
           "logical_operator": "AND",
           "values": [
@@ -45,7 +45,7 @@
               "name": "Fever"
             },
             {
-              "type": "criteria",
+              "type": "criterion",
               "logical_operator": "AT_LEAST",
               "logical_operator_arguments": [
                 1

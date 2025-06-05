@@ -15,11 +15,11 @@
   "organization": "Ministry of Health and Family Welfare",
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {
-          "type": "criteria",
+          "type": "criterion",
           "name": "Fever with rash",
           "logical_operator": "AND",
           "values": [

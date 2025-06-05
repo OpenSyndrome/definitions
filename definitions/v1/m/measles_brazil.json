@@ -10,7 +10,7 @@
   "authors": [],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -23,7 +23,7 @@
           "description": "maculopapular morbilliform cephalocaudal"
         },
         {
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             1
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "OR",
       "values": [
         {

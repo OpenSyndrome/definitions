@@ -13,7 +13,7 @@
   ],
   "inclusion_criteria": [
     {
-      "type": "criteria",
+      "type": "criterion",
       "logical_operator": "AND",
       "values": [
         {
@@ -26,7 +26,7 @@
         },
         {
           "name": "At least one of the following symptoms",
-          "type": "criteria",
+          "type": "criterion",
           "logical_operator": "AT_LEAST",
           "logical_operator_arguments": [
             1
