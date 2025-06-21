@@ -1,0 +1,65 @@
+{
+  "title": "Open Syndrome Arbovirosis in General",
+  "description": "",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2025-01-29T12:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Paraguay",
+  "language": "English",
+  "organization": "Ministry of Health and Social Welfare",
+  "authors": [
+    "Dirección General de Vigilancia de la Salud",
+    "Ministerio de Salud Pública y Bienestar Social"
+  ],
+  "inclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "AND",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Fever"
+        },
+        {
+          "type": "professional_judgment",
+          "name": "History of arthropod bite",
+          "description": "Arthropod refers to insects or arachnids, such as mosquitoes"
+        },
+        {
+          "type": "symptom",
+          "name": "Acute fever of unknown origin (FUO)",
+          "description": "Fever persisting for more than 3 days without an identified cause"
+        }
+      ],
+      "code": {
+        "system": "ICD-10",
+        "code": "A92.9"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Guía Nacional de Vigilancia y Control de Eventos de Notificación Obligatoria. Sistema Nacional de Vigilancia Epidemiológica. Paraguay, 2022",
+      "url": "https://dgvs.mspbs.gov.py/files/guiaNacional/Guia_de_Vigilancia_2022_act_28_julio.pdf"
+    }
+  ],
+  "notes": [
+    "Human-readable definition was automatically translated from Spanish to English."
+  ],
+  "status": "draft",
+  "human_readable_definition": "Undifferentiated fever due to mosquito bite. Acute febrile syndrome with no apparent cause",
+  "target_public_health_threats": [
+    "arbovirosis"
+  ],
+  "keywords": [
+    "arbovirosis",
+    "Latin America"
+  ],
+  "definition_type": "case_definition"
+}
