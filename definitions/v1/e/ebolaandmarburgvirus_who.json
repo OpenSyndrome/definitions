@@ -119,5 +119,9 @@
       "url": "https://www.who.int/emergencies/outbreak-toolkit/disease-outbreak-toolboxes/ebola-and-marburg-virus-outbreak-toolbox"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

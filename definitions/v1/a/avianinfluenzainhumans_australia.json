@@ -103,5 +103,15 @@
     }
   ],
   "notes": [],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "Clinical evidence \nAn acute illness characterised by: \n \n1. Fever (>38°C) or history of fever AND one or more of; cough OR rhinorrhoea OR \nmyalgia OR headache OR dyspnoea OR diarrhoea; \nOR \n2. Conjunctivitis \nOR \n3. Infiltrates or evidence of an acute pneumonia on a chest radiograph plus evidence \nof acute respiratory insufficiency (hypoxaemia, severe tachypnoea). \n",
+  "target_public_health_threats": [
+    "Avian Influenza in Humans"
+  ],
+  "keywords": [
+    "Avian Influenza in Humans",
+    "AIH",
+    "Oceania"
+  ],
+  "definition_type": "case_definition"
 }

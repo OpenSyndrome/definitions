@@ -148,5 +148,9 @@
       "url": "https://www.cendeisss.sa.cr/wp/wp-content/uploads/2024/04/Protocolo-Viruela-Simica.CCSS_.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

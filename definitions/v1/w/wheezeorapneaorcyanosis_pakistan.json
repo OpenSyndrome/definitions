@@ -49,5 +49,9 @@
       "url": "https://journals.lww.com/pidj/Fulltext/2019/03000/Assessment_and_Validation_of_Syndromic_Case.29.aspx"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

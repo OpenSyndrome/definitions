@@ -111,5 +111,9 @@
       "url": "https://www.nicd.ac.za/wp-content/uploads/2021/08/VIRAL-HAEMORRHAGIC-FEVER-DISEASES_Lujo-case-definition.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

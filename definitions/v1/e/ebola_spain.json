@@ -76,5 +76,9 @@
       "url": "https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/ebola/documentos/Protocolo_actuacion_Ebola.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

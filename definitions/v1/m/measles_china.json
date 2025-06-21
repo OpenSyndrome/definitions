@@ -7,7 +7,9 @@
   "open_syndrome_version": "1.0.0",
   "published_in": "https://opensyndrome.org",
   "published_at": "2025-02-27T17:48:51Z",
-  "published_by": ["Open Syndrome Initiative"],
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
   "status": "draft",
   "language": "English",
   "organization": "China CDC",
@@ -64,5 +66,9 @@
     {
       "url": "https://www.chinacdc.cn/jkyj/crb2/yl/mz/jswj_mz/202409/t20240909_299153.html"
     }
-  ]
+  ],
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

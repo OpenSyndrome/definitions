@@ -48,5 +48,9 @@
   "notes": [
     "Type of diabetes in which there is insulin resistance and a concomitant deficiency in its production, which can be absolute or relative. Patients are usually over 30 years of age when the diagnosis is made, they are obese and have relatively few classic symptoms."
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

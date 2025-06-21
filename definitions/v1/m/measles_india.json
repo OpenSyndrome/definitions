@@ -48,5 +48,9 @@
       "url": "https://drive.google.com/file/d/1qX0lxKjFe_qlSSnqP5pvW2gOrTNPvdrS/view"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

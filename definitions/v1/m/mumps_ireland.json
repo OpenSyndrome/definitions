@@ -37,5 +37,9 @@
   "notes": [
     "Mumps may also present as aseptic meningitis, encephalitis, hearing loss, orchitis, oophoritis, parotitis or other salivary gland swelling, mastitis or pancreatitis."
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

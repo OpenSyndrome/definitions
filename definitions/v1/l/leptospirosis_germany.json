@@ -67,5 +67,9 @@
       "url": "https://www.rki.de/DE/Content/Infekt/IfSG/Falldefinition/Downloads/Falldefinitionen_des_RKI_2023.pdf?__blob=publicationFile"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

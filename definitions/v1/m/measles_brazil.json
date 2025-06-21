@@ -74,5 +74,9 @@
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo/vigilancia-do-sarampo"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

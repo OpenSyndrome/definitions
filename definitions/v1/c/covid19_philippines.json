@@ -89,5 +89,14 @@
     }
   ],
   "references": [],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "A. Suspect Case \n1. A person who meets the clinical AND epidemiologic criteria: \na. Clinical criteria \ni. Acute onset of fever AND cough OR \nii. Acute onset of any of the three or more of the following signs or symptoms: \nfever, cough, general weakness, fatigue, headache, myalgia, sor e throat, \ncoryza, dyspnea, anorexia/nausea/vomiting/diarrhea, altered men tal \nstatus \nb. Epidemiologic criteria \ni. Residing or working in an area with high risk of transmissio n of the virus: \nfor example, closed residential settings and humanitarian settings such as \ncamp and camp-like settings for displaced persons, any time within the 14 \ndays prior to symptoms onset; OR \nii. Residing in or travel to an area with community transmission anytime within \nthe 14 days prior to symptom onset OR \niii. Working in health settings including within health facilit ies and within \nhouseholds, anytime within the 14 days prior to symptoms onset \nc. Patient with severe acute respiratory illness (SARI: acute r espiratory infection \nwith history of fever or measured fever > 38 C, and cough with onset within the \nlast 10 days and who require hospitalization) \n",
+  "target_public_health_threats": [
+    "COVID-19"
+  ],
+  "keywords": [
+    "COVID-19",
+    "Asia"
+  ],
+  "definition_type": "case_definition"
 }

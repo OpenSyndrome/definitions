@@ -38,7 +38,9 @@
         {
           "type": "criterion",
           "logical_operator": "AT_LEAST",
-          "logical_operator_arguments": [1],
+          "logical_operator_arguments": [
+            1
+          ],
           "values": [
             {
               "type": "symptom",
@@ -64,5 +66,9 @@
       "url": "https://docs.bvsalud.org/biblioref/2021/11/1344189/vigilancia-integrada-de-doencas-e-resposta-em-mocambique.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

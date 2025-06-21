@@ -1,7 +1,7 @@
 {
   "title": "Open Syndrome Babesiosis",
   "description": "Case definition for suspected babesiosis",
-  "scope": "specific",
+  "scope": "broad",
   "category": "suspected",
   "version": "1.0.0",
   "open_syndrome_version": "1.0.0",
@@ -25,15 +25,38 @@
         {
           "type": "criterion",
           "logical_operator": "AT_LEAST",
-          "logical_operator_arguments": [1],
+          "logical_operator_arguments": [
+            1
+          ],
           "values": [
-            {"type": "symptom", "name": "fatigue"},
-            {"type": "symptom", "name": "chills"},
-            {"type": "symptom", "name": "sweats"},
-            {"type": "symptom", "name": "headache"},
-            {"type": "symptom", "name": "anorexia"},
-            {"type": "symptom", "name": "hemolytic anemia"},
-            {"type": "symptom", "name": "thrombocytopenia"}
+            {
+              "type": "symptom",
+              "name": "fatigue"
+            },
+            {
+              "type": "symptom",
+              "name": "chills"
+            },
+            {
+              "type": "symptom",
+              "name": "sweats"
+            },
+            {
+              "type": "symptom",
+              "name": "headache"
+            },
+            {
+              "type": "symptom",
+              "name": "anorexia"
+            },
+            {
+              "type": "symptom",
+              "name": "hemolytic anemia"
+            },
+            {
+              "type": "symptom",
+              "name": "thrombocytopenia"
+            }
           ]
         }
       ]
@@ -45,5 +68,14 @@
       "url": "https://www.canada.ca/en/public-health/services/diseases/babesiosis/health-professionals/national-case-definition.html"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "Babesiosis infections range in severity from asymptomatic to severe\n(occasionally fatal) depending on host and parasite factors. Most\nsymptomatic infections caused by B. microti  are mild and self-limiting,\ndeveloping 1 to 4 weeks after the tick bite and 1 to 9 weeks after\ncontamination of blood products.  The salient features are fever and\nnon-specific flu-like illness (malaise, fatigue, chills, sweats, and\nheadache).\n",
+  "target_public_health_threats": [
+    "Babesiosis"
+  ],
+  "keywords": [
+    "North America",
+    "Babesiosis"
+  ],
+  "definition_type": "case_definition"
 }

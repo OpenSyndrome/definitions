@@ -77,5 +77,14 @@
     }
   ],
   "notes": [],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "A\nAny one of the epidemiological \nhistory with any of the clinical \nfeatures.\nepidemiological history:\n1. History of travel to or \nresidence in communities \nwhere cases reported within \nthe last 14 days.\n2. In contact with viral RNA \npositive people\nwithin the last 14 days.\n3. In contact with a patient who \nhas fever or respiratory \nsymptoms or from a \ncommunity\nwith confirmed cases reported \nwithin the last 14 days.\nB\nAsessing the presence of at \nleast two of the following \nclinical features:\n1.Fever and/or respiratory \nsymptoms.\n2.Imaging characteristics. \nCT scan is preferred, if not \nappicable do CXR\n3.Differential CBC findings:\nwhite blood cells is normal \nor decreased, with decreased \nlymphocytic count.\nC\nSevere Acute Respiratory \nInfection\n(SARI) with no other \nobvious cause.\n",
+  "target_public_health_threats": [
+    "COVID-19"
+  ],
+  "keywords": [
+    "COVID-19",
+    "Africa"
+  ],
+  "definition_type": "case_definition"
 }

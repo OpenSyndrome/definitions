@@ -69,5 +69,9 @@
       "url": "https://www2.moh.gov.my/moh/resources/Penerbitan/Garis%20Panduan/Pengurusan%20KEsihatan%20&%20kawalan%20pykit/Case_Definition_Of_Infectious_Disease_3rd_Edition_2017.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

@@ -36,5 +36,17 @@
       "url": "https://www.ins.gov.co/buscador-eventos/Lineamientos/Pro_C%C3%B3lera.pdf"
     }
   ],
-  "status": "draft"
+  "notes": [
+    "Human-readable definition was automatically translated from Spanish to English."
+  ],
+  "status": "draft",
+  "human_readable_definition": "This is a suspect case that meets any of the following criteria.\n   Confirmation by laboratory with positive stool culture for toxigenic Vibrio cholerae O1 or O139.\n   Confirmation by epidemiological link:\n    • Individual who fits the definition of a suspect case, and has history of contact with a confirmed cholera patient within a period of five days\n    • or a history of active circulation of V. cholerae serotype O1 or O139 toxigenic in the workplace or residence of the case.\n   An area of active circulation is considered one where toxigenic Vibrio cholerae O1 or O139 has been isolated from biological or environmental samples (water, food or food remains).",
+  "target_public_health_threats": [
+    "Cholera"
+  ],
+  "keywords": [
+    "Latin America",
+    "Cholera"
+  ],
+  "definition_type": "case_definition"
 }

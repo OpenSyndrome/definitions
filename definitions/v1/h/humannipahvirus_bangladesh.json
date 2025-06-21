@@ -55,5 +55,9 @@
       "url": "https://doi.org/10.1371/journal.pntd.0011617"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

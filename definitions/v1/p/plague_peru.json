@@ -56,5 +56,9 @@
       "url": "http://bvs.minsa.gob.pe/local/MINSA/3255.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

@@ -41,5 +41,9 @@
       "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Integrated-Disease-Surveillance-and-Response-Ghana-Guidelines.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

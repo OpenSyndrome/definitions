@@ -64,5 +64,9 @@
       "url": "https://www.paho.org/en/topics/zika/zika-resources-case-definitions"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

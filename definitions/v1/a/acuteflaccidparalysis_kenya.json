@@ -53,5 +53,15 @@
       "url": "https://nphi.go.ke/sites/default/files/2024-02/Case%20definition%20Chart_0.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "Any case with weakness or floppiness of the limbs of sudden onset not due to trauma in a c hild less than \n15 years of age, or any person of any age in whom a clinician suspects polio",
+  "target_public_health_threats": [
+    "poliomyelitis"
+  ],
+  "keywords": [
+    "polio",
+    "poliomyelitis",
+    "Africa"
+  ],
+  "definition_type": "case_definition"
 }

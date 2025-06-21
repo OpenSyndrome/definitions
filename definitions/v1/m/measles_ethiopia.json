@@ -80,5 +80,9 @@
       "url": "https://doi.org/10.1186/s12879-016-1457-7"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

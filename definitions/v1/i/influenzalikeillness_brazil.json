@@ -40,7 +40,9 @@
         {
           "type": "criterion",
           "logical_operator": "AT_LEAST",
-          "logical_operator_arguments": [1],
+          "logical_operator_arguments": [
+            1
+          ],
           "values": [
             {
               "type": "symptom",
@@ -71,5 +73,9 @@
       "url": "https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sudeste/hc-ufu/saude/epidemiologia/protocolos/protocolo/protocolo-de-sindrome-gripal-e-sindrome-respiratoria-aguda-grave-com-enfase-em-influenza"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

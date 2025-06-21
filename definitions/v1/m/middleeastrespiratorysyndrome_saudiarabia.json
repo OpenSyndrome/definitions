@@ -17,36 +17,38 @@
     "Ministry of Health Command and Control Center"
   ],
   "inclusion_criteria": [
-      {
-        "type": "criterion",
-        "logical_operator": "OR",
-        "values": [
-          {
-            "type": "syndrome",
-            "name": "fever with/without respiratory symptoms"
-          },
-          {
-            "type": "criterion",
-            "logical_operator": "AND",
-            "name": "Gastrointestinal symptoms with blood count abnormalities",
-            "values": [
-              {
-                "type": "criterion",
-                "logical_operator": "AT_LEAST",
-                "name": "gastrointestinal symptoms",
-                "logical_operator_arguments": [1],
-                "values": [
-                  {
-                    "type": "symptom",
-                    "name": "diarrhea"
-                  },
-                  {
-                    "type": "symptom",
-                    "name": "vomiting"
-                  }
-                ]
-              },
-              {
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "values": [
+        {
+          "type": "syndrome",
+          "name": "fever with/without respiratory symptoms"
+        },
+        {
+          "type": "criterion",
+          "logical_operator": "AND",
+          "name": "Gastrointestinal symptoms with blood count abnormalities",
+          "values": [
+            {
+              "type": "criterion",
+              "logical_operator": "AT_LEAST",
+              "name": "gastrointestinal symptoms",
+              "logical_operator_arguments": [
+                1
+              ],
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "diarrhea"
+                },
+                {
+                  "type": "symptom",
+                  "name": "vomiting"
+                }
+              ]
+            },
+            {
               "type": "criterion",
               "name": "Blood count abnormalities",
               "logical_operator": "OR",
@@ -63,11 +65,11 @@
                 }
               ]
             }
-            ]
-          }
-        ]
-      }
-    ],
+          ]
+        }
+      ]
+    }
+  ],
   "exclusion_criteria": [],
   "notes": [
     "Usage of Suspected case definition (section 4.1 - children and adults)."
@@ -78,5 +80,9 @@
       "url": "https://www.moh.gov.sa/ccc/healthp/regulations/documents/mers-cov%20guidelines%20for%20healthcare%20professionals%20-%20may%202018%20-%20v5.1%20%281%29.pdf#page4"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

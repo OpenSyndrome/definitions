@@ -70,5 +70,9 @@
       "url": "https://www.argentina.gob.ar/sites/default/files/2019/10/msal-manual_de_normas_y_procedimientos_de_vigilancia_y_control_de_eno_2022.pdf"
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

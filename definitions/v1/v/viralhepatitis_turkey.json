@@ -62,5 +62,9 @@
   "notes": [
     "It should be remembered that it may be mostly asymptomatic and/or anicteric"
   ],
-  "status": "draft"
+  "status": "draft",
+  "human_readable_definition": "",
+  "target_public_health_threats": [],
+  "keywords": [],
+  "definition_type": "case_definition"
 }

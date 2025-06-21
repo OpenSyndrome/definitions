@@ -46,5 +46,14 @@
     {
       "url": "https://www.esr.cri.nz/media/0nadzkgc/sticasedefinitions.pdf"
     }
-  ]
+  ],
+  "human_readable_definition": "",
+  "target_public_health_threats": [
+    "Chlamydia"
+  ],
+  "keywords": [
+    "Chlamydia",
+    "Oceania"
+  ],
+  "definition_type": "case_definition"
 }
