@@ -53,56 +53,49 @@
           }
         },
         {
-          "type": "criterion",
-          "name": "SNOMED diagnoses",
-          "logical_operator": "OR",
-          "values": [
-            {
-              "type": "diagnosis",
-              "name": "Dengue",
-              "code": {
-                "system": "SNOMED-CT",
-                "code": "38362002",
-                "display": "Dengue"
-              }
-            },
-            {
-              "type": "diagnosis",
-              "name": "Severe Dengue",
-              "code": {
-                "system": "SNOMED-CT",
-                "code": "20927009",
-                "display": "Severe Dengue"
-              }
-            },
-            {
-              "type": "diagnosis",
-              "name": "Dengue shock syndrome",
-              "code": {
-                "system": "SNOMED-CT",
-                "code": "409671005",
-                "display": "Dengue shock syndrome"
-              }
-            },
-            {
-              "type": "diagnosis",
-              "name": "Myelitis caused by Dengue virus",
-              "code": {
-                "system": "SNOMED-CT",
-                "code": "866057003",
-                "display": "Myelitis caused by Dengue virus"
-              }
-            },
-            {
-              "type": "diagnosis",
-              "name": "Encephalitis caused by Dengue virus",
-              "code": {
-                "system": "SNOMED-CT",
-                "code": "1163101003",
-                "display": "Encephalitis caused by Dengue virus"
-              }
-            }
-          ]
+          "type": "diagnosis",
+          "name": "Dengue",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "38362002",
+            "display": "Dengue"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Severe Dengue",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "20927009",
+            "display": "Severe Dengue"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Dengue shock syndrome",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "409671005",
+            "display": "Dengue shock syndrome"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Myelitis caused by Dengue virus",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "866057003",
+            "display": "Myelitis caused by Dengue virus"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Encephalitis caused by Dengue virus",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "1163101003",
+            "display": "Encephalitis caused by Dengue virus"
+          }
         }
       ]
     }
