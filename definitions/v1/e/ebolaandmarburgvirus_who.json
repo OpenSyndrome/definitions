@@ -120,8 +120,14 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "any person, alive or dead, suffering or having suffered from sudden onset of high fever, and had\ncontact with:\no a suspected, probable, or confirmed Ebola case, or a dead or sick animal; OR\n• any person with sudden onset of high fever, AND at least three of the following symptoms:\nheadache, lethargy, anorexia/loss of appetite, aching muscles or joints, stomach pain, difficulty\nswallowing, vomiting, difficulty breathing, diarrhoea, hiccups; OR\n• any person with inexplicable bleeding; OR\n• any sudden, inexplicable death.",
+  "target_public_health_threats": [
+    "Ebola and Marburg virus"
+  ],
+  "keywords": [
+    "Ebola",
+    "Marburg virus",
+    "WHO"
+  ],
   "definition_type": "case_definition"
 }

@@ -96,8 +96,13 @@
       "url": "http://bvs.gt/eblueinfo/VS/VS_008.pdf"
     }
   ],
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Toda persona que presente fiebre de inicio\nrepentino, asociada a uno o más de los siguientes signos neurológicos: cefalea,\ndesorientación, temblores, convulsiones, parestesias, o algún tipo de parálisis,\nsomnolencia, alteración del estado de conciencia, estupor, rigidez de nuca y que hayan\nvisitado regiones con presencia de équidos (caballos, asnos y mulas) o bien, haber sufrido\npicaduras de mosquitos en áreas con muerte de estos équidos sospechosos de padecer\nencefalitis equina.",
+  "target_public_health_threats": [
+    "Equine encephalitis"
+  ],
+  "keywords": [
+    "Equine encephalitis",
+    "North America"
+  ],
   "definition_type": "case_definition"
 }

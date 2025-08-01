@@ -88,8 +88,14 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Toda persona con antecedentes de\nexposición a calor extremo en circunstancia de Alerta Temprana por Temperatura\nExtrema (calor) del Servicio Meteorológico Nacional, y sintomatología clínica\natribuible - Temperatura corporal mayor o igual a 39 ºC y 2 o más de los siguientes\nsíntomas, a saber:\nSignos y síntomas atribuibles: piel caliente, sudoración abundante en un primer\nmomento o escasa, náuseas y/o vómitos, hipotensión, taquicardia y taquipnea,\nalteración del estado de conciencia, convulsiones, desmayo. En bebés: sudoración\nabundante, piel irritada por sudor.",
+  "target_public_health_threats": [
+    "Heat"
+  ],
+  "keywords": [
+    "Heat",
+    "South America",
+    "Climate-related"
+  ],
   "definition_type": "case_definition"
 }

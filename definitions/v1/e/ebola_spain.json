@@ -77,8 +77,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Se considerará caso en investigación aquella persona que cumpla los criterios epidemiológico y clínico descritos a\ncontinuación. A la hora de considerar un caso en investigación, el criterio epidemiológico debe ser determinante.\nCriterio epidemiológico: al menos uno de los siguientes antecedentes de posibles exposiciones durante los\n21 días previos al inicio de síntomas:\n– Antecedente de estancia en un área con transmisión de EVE y haber tenido durante esa estancia\ncontacto con un caso (en investigación o confirmado)1 o con sus fluidos corporales/muestras\nbiológicas, o contacto con una persona enferma con sintomatología compatible.\n– Sin antecedente de estancia en un área donde hay transmisión de EVE: contacto con un caso (en\ninvestigación o confirmado) o con sus fluidos corporales/muestras biológicas.\nY\nCriterio clínico: Fiebre* (≥ 37,7 º C) con al menos otro síntoma compatible con la clínica de la enfermedad\n(cefalea intensa, vómitos, diarrea, dolor abdominal, dolor muscular o manifestación hemorrágica no\nexplicada)\n* Para valorar la fiebre, se deberá tener en cuenta si está tomando antitérmicos, está en situación de\ninmunodepresión o cualquier otra situación que pueda afectar a la temperatura corporal, como son\nlos niños, ancianos, etc. En los lactantes, especialmente en los menores de 3 meses, la fiebre puede no\nser evidente y se deben valorar como criterio clínico los síntomas y signos de afectación sistémica.\nEl criterio clínico en contactos en seguimiento por haber estado expuestos a un caso de EVE será fiebre o\nun cuadro clínico compatible con la enfermedad.",
+  "target_public_health_threats": [
+    "Ebola"
+  ],
+  "keywords": [
+    "Ebola",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }

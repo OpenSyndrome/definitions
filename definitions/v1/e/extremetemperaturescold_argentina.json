@@ -71,8 +71,14 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Toda persona con antecedentes de\nexposición a frío extremo en circunstancia de Alerta Temprana por Temperatura\nExtrema (frío) del Servicio Meteorológico Nacional, y sintomatología clínica\natribuible. Temperatura corporal igual o menor a 36 ºC y 2 o más de los siguientes\nsíntomas, a saber:\nSignos y síntomas atribuibles: escalofríos, alteración del estado de conciencia, pulso\ndébil, bradipnea, daño tisular local causado por el enfriamiento. Piel fría y roja en\nbebés.",
+  "target_public_health_threats": [
+    "Cold"
+  ],
+  "keywords": [
+    "Cold",
+    "South America",
+    "Climate-related"
+  ],
   "definition_type": "case_definition"
 }
