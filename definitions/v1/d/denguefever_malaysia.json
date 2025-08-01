@@ -70,8 +70,14 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Acute onset of high grade fever of usually 2-5 days or more associated with two or more\nof the following: headache, retro-orbital pain, myalgia, arthralgia, rash and mild\nhaemorrhagic manifestation (epistaxis, gums bleeding and petechiae).",
+  "target_public_health_threats": [
+    "Dengue fever"
+  ],
+  "keywords": [
+    "Dengue",
+    "Arbovirosis",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

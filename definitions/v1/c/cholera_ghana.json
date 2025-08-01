@@ -42,8 +42,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "In a patient age 5 years or more, severe dehydration or death from acute watery diarrhoea\n(rice water stool).\nIf there is a cholera epidemic, a suspected case is a person age 5 years or more with acute\nwatery diarrhoea, with or without vomiting.",
+  "target_public_health_threats": [
+    "Cholera"
+  ],
+  "keywords": [
+    "Cholera",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }

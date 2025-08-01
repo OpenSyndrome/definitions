@@ -37,8 +37,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "3 or more loose or\nwatery stools in 24 hrs",
+  "target_public_health_threats": [
+    "Diarrhea"
+  ],
+  "keywords": [
+    "Diarrhea",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

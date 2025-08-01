@@ -112,7 +112,13 @@
   ],
   "status": "draft",
   "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "target_public_health_threats": [
+    "Dengue"
+  ],
+  "keywords": [
+    "Dengue",
+    "North America",
+    "Arbovirus"
+  ],
   "definition_type": "case_definition"
 }
