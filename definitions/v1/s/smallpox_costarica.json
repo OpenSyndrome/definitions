@@ -149,8 +149,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Persona de cualquier edad que se presenta con un exantema agudo inexplicable y que\npresentó uno o más de los siguientes signos o síntomas, con fecha de inicio posterior al 15\nde marzo de 2022:\n- Cefalea\n- Inicio súbito fiebre (>38,5°C)\n- Mialgia\n- Dolor de espalda\n- Astenia\n- Linfadenopatía\nY\npara los cuales se ha descartado, las siguientes y otras causas de exantema agudo que se\nmencionan a continuación: varicela, herpes zóster, sarampión, rubéola, zika, dengue,\nchikungunya, herpes simple, infecciones bacterianas de la piel, infección gonocócica\ndiseminada, sífilis primaria o secundaria, chancroide, linfogranuloma venéreo, granuloma\ninguinal, molusco contagioso, reacción alérgica (por ejemplo, a las plantas); y cualquier otra\ncausa común, localmente relevante de erupción vesicular o papular.\nNo es necesario tener resultados negativos de todas las enfermedades exantemáticas para\ndeterminar un caso como sospechoso.",
+  "target_public_health_threats": [
+    "Smallpox"
+  ],
+  "keywords": [
+    "Smallpox",
+    "North America"
+  ],
   "definition_type": "case_definition"
 }

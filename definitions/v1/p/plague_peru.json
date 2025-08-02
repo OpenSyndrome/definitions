@@ -57,8 +57,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Paciente con presentación clínica compatible, y con antecedentes\nepidemiológicos consistentes de:\n• Exposición a humanos o animales infectados, y/o\n• Evidencia de picaduras de pulgas, y/o\n• Residencia o viaje a un área endémica conocida, dentro de los 10 días\nprevios.",
+  "target_public_health_threats": [
+    "Plague"
+  ],
+  "keywords": [
+    "Plague",
+    "South America"
+  ],
   "definition_type": "case_definition"
 }
