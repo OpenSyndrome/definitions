@@ -1,6 +1,6 @@
 {
   "title": "Open Syndrome Influenza-like Illness (ILI)",
-  "description": "Standardized case definition of suspected influenza-like illness",
+  "description": "Standardized case definition of suspected influenza-like illness for adults",
   "scope": "specific",
   "category": "suspected",
   "version": "1.0.0",
@@ -74,8 +74,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Indivíduo que apresente febre de início súbito, mesmo que referida,\nacompanhada de tosse ou dor de garganta e pelo menos um dos seguin-\ntes sintomas: cefaleia, mialgia ou artralgia, na ausência de outro diagnós-\ntico específico.",
+  "target_public_health_threats": [
+    "Influenza-like Illness (ILI)"
+  ],
+  "keywords": [
+    "Influenza-like Illness (ILI)",
+    "South America"
+  ],
   "definition_type": "case_definition"
 }

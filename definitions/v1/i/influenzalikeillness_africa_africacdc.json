@@ -43,8 +43,13 @@
   ],
   "location": "Africa",
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "An acute respiratory infection with:\n•\nmeasured fever of ≥ 38 °C\n•\nand cough\n•\nwith onset within the last 10 days",
+  "target_public_health_threats": [
+    "Influenza-like illness"
+  ],
+  "keywords": [
+    "Influenza-like illness",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }

@@ -56,8 +56,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Fever (axillary temperature > 38.5 °C) or history of raised temperature prior to hospitalization AND any sign/symptom of brain pathology\nOR\nFever (axillary temperature > 38.5 °C) or history of raised temperature prior to hospitalization AND any sign/symptom of lung pathology",
+  "target_public_health_threats": [
+    "Nipah virus"
+  ],
+  "keywords": [
+    "Nipah virus",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

@@ -265,8 +265,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Level 1 of diagnostic certainty\nSurgical criteria:\nThe demonstration of invagination of the intestine at surgery;\nand/or\nRadiological criteria:\nThe demonstration of invagination of the intestine by either air or liquid contrast enema;\nor\nThe demonstration of an intra-abdominal mass by abdominal ultrasound with specific characteristic featuresb that is proven to be reduced by\nhydrostatic enema on post-reduction ultrasound;\nand/or\nAutopsy criteria:\nThe demonstration of invagination of the intestine.\nLevel 2 of diagnostic certainty\nClinical criteria:\nTwo major criteria (see table for major and minor criteria for diagnosis below);\nor\nOne major criterionc and three minor criteria (see table for major and minor criteria for diagnosis below).\nLevel 3 of diagnostic certainty\nClinical criteria:\nFour or more minor criteria (see minor criteria for diagnosis below).\nAny level of diagnostic certainty\nIn the absence of surgical criteria with the definitive demonstration of an alternative cause of bowel obstruction or intestinal infarction at surgery\n(e.g., volvulus or congenital pyloric stenosis).\nMajor and minor criteria used in the case definition for the diagnosis of intussusception\nMajor criteria\n1. Evidence of intestinal obstruction: 2. Features of intestinal invagination 3. Evidence of intestinal vascular\ni. History of bile-stained vomiting; One or more of the following: compromise or venous congestion:\nand either i. abdominal mass; i. Passage of blood per rectum;\nii. Examination findings of acute ii. rectal mass; or\nabdominal distension and abnormal iii. intestinal prolapse; or absent bowel sounds; iv. plain abdominal radiograph showing a ii. Passage of a stool containing\n“red currant jelly” material;\nor visible intussusceptum or soft tissue mass; or\niii. Plain abdominal radiograph showing v. abdominal ultrasound showing a visible iii. Blood detected on rectal\nfluid levels and dilated bowel loops.\nintussusceptum or soft tissue mass; examination.\nvi. abdominal CT scan showing a visible\nintussusceptum or soft tissue mass.\nMinor criteria\ni. Predisposing factors: age <1 year and male sex; ii. Abdominal pain; iii. Vomiting;d v. Pallor;e\nvi. Hypovolemic shock;\nvii. Plain abdominal radiograph showing an abnormal but non-specific\niv. Lethargy;e bowel gas pattern.",
+  "target_public_health_threats": [
+    "Intussusception"
+  ],
+  "keywords": [
+    "Intussusception",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }
