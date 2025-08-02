@@ -38,8 +38,13 @@
     "Mumps may also present as aseptic meningitis, encephalitis, hearing loss, orchitis, oophoritis, parotitis or other salivary gland swelling, mastitis or pancreatitis."
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Any person with fever AND sudden onset of unilateral or bilateral tender swelling of the parotid or other salivary glands without other apparent cause. Mumps may also present as aseptic meningitis, encephalitis, hearing loss, orchitis, oophoritis, parotitis or other salivary gland swelling, mastitis or pancreatitis.\n\n",
+  "target_public_health_threats": [
+    "Mumps"
+  ],
+  "keywords": [
+    "Mumps",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }

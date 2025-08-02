@@ -81,8 +81,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Acute febrile illness (T ≥380 C)\nwith/without respiratory symptoms\nOR\nIV. Gastrointestinal symptoms\n(diarrhea or vomiting), AND\nleukopenia (WBC≤3.5x109 /L) or\nthrombocytopenia (platelets <\n150x109/L)",
+  "target_public_health_threats": [
+    "MERS"
+  ],
+  "keywords": [
+    "MERS",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

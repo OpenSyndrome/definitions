@@ -36,8 +36,13 @@
       "url": "https://ncdc.gov.ng/themes/common/docs/protocols/31_1503912332.pdf"
     }
   ],
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Any patient hospitalized with severe febrile disease with accompanying vital organ\ndysfunction diagnosed clinically.",
+  "target_public_health_threats": [
+    "Malaria"
+  ],
+  "keywords": [
+    "Malaria",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }

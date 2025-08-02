@@ -75,8 +75,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "\n\nTodo indivíduo que apresentar febre e exantema maculopapular morbiliforme de direção cefalocaudal, acompanhados de um ou mais dos seguintes sinais e sintomas: tosse e/ou coriza e/ou conjuntivite, independentemente da idade e da situação vacinal; OU\n\nTodo indivíduo suspeito com história de viagem para locais com circulação do vírus do sarampo, nos últimos 30 dias, ou de contato, no mesmo período, com alguém que viajou para local com circulação viral.\n",
+  "target_public_health_threats": [
+    "Measles"
+  ],
+  "keywords": [
+    "Measles",
+    "South America"
+  ],
   "definition_type": "case_definition"
 }

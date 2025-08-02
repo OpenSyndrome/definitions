@@ -67,8 +67,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Uma pessoa com\nmanifestação súbita de febre\n(>38,5º C no recto ou 38,0º C nas\naxilas), e pescoço rígido, con-\nsciência alterada ou quaisquer\noutros sinais meníngeos.\nCaso confirmado: caso suspeito\nconfirmado através do isolamen-\nto de N. meningitidis do LCR ou\ndo sangue",
+  "target_public_health_threats": [
+    "Meningococcal meningitis"
+  ],
+  "keywords": [
+    "Meningococcal meningitis",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }

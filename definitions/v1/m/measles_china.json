@@ -67,8 +67,13 @@
       "url": "https://www.chinacdc.cn/jkyj/crb2/yl/mz/jswj_mz/202409/t20240909_299153.html"
     }
   ],
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "未进行流行病学调查或完成调查前失访或死亡的病例,实验室检测结果为阴性或无实验室诊断结果的临床报告病例,且与实验室确诊病例没有流行病联系.",
+  "target_public_health_threats": [
+    "Measles"
+  ],
+  "keywords": [
+    "Measles",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

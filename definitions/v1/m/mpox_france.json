@@ -52,8 +52,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Un patient suspect d'infection par le virus Monkeypox est une personne présentant\n- Une éruption cutanée ou une ou des ulcérations de la muqueuse génitale, anale ou buccale,\névocatrice de mpox\n- Isolée, ou précédée ou accompagnée d'une fièvre ressentie ou mesurée (>38°C),\nd'adénopathies ou d'une odynophagie.",
+  "target_public_health_threats": [
+    "Monkeypox"
+  ],
+  "keywords": [
+    "Monkeypox",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }

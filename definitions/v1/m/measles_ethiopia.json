@@ -81,8 +81,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "National guidelines for measles surveillance are based on\nthe WHO/-AFRO Measles and Rubella Surveillance guide-\nline, and define a suspected measles case as any person\nwith a generalized maculopapular rash and fever plus one or\nmore of the following: 1) cough, 2) coryza), or 3) conjunc-\ntivitis OR any person in whom a clinician suspects measles.",
+  "target_public_health_threats": [
+    "Measles"
+  ],
+  "keywords": [
+    "Measles",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }
