@@ -57,7 +57,11 @@
   "location": "United States",
   "status": "draft",
   "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "target_public_health_threats": [
+    "Lyme disease"
+  ],
+  "keywords": [
+    "Lyme disease"
+  ],
   "definition_type": "case_definition"
 }

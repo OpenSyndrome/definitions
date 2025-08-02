@@ -38,8 +38,12 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "A case with clinical or radiological diagnosis of pneumonia but no\nmicrobiological evidence for confirmation of Legionella infection (above) is\nconsidered a probable case where the location and onset date(s) meet the\noutbreak-specific case definition for the exposure category",
+  "target_public_health_threats": [
+    "Legionnaires' disease"
+  ],
+  "keywords": [
+    "Legionnaires' disease"
+  ],
   "definition_type": "case_definition"
 }

@@ -112,8 +112,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "A person with acute onset of fever\n>38.5°C, and at least three of the\nfollowing signs and symptoms:\n\uF0B7 severe headache, myalgia,\n\uF0B7 diarrhea,\n\uF0B7 pharyngitis, abdominal pain,\nretrosternal chest pain,\nrespiratory distress,\n\uF0B7 moderate thrombocytopenia,\n\uF0B7 increased AST and\n\uF0B7 leukocytosis,\n\uF0B7 proteinuria,\n\uF0B7 neurological signs or\n\uF0B7 sudden inexplicable death\nAND a likely epidemiological exposure\nincluding any of\n\uF0B7 contact with a suspected,\nprobable or confirmed Lujo case,\nor\n\uF0B7 contact with a dead or sick\nanimal especially rodents within\nthe past 21 days.",
+  "target_public_health_threats": [
+    "Lujo hemorrhagic fever"
+  ],
+  "keywords": [
+    "Lujo hemorrhagic fever",
+    "Africa"
+  ],
   "definition_type": "case_definition"
 }

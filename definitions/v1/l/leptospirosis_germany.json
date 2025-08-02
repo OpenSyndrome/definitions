@@ -68,8 +68,13 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Klinisches Bild einer akuten Leptospirose, definiert als mindestens eines der neun folgenden Kriterien:\n- ►allgemeine Krankheitszeichen,\n- Dyspnoe (Atemstörung),\n- ►Fieber,\n- Hämorrhagien (z.B. Lungenblutungen, subkonjunktivale Blutungen),\n- Husten,\n- Ikterus (Gelbsucht),\n- Meningitis oder Meningoenzephalitis,\n- Myokarditis (Herzmuskelentzündung),\n- ►Nierenfunktionsstörung\nODER ►krankheitsbedingter Tod.",
+  "target_public_health_threats": [
+    "Leptospirosis"
+  ],
+  "keywords": [
+    "Leptospirosis",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }
