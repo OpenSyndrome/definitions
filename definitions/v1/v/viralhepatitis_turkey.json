@@ -63,8 +63,13 @@
     "It should be remembered that it may be mostly asymptomatic and/or anicteric"
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "The presence of the following two clinical criteria.\n1. Sudden onset of abdominal pain, loss of appetite, fatigue, nausea, vomiting in an individual\n2. Presence of at least one of the following clinical criteria:\n• Fever\n• Jaundice\n• Elevated serum aminotransferases (ALT and AST) and increased levels of urobilinogen in urine\n(NOTE: It should be remembered that it may often be asymptomatic and/or anicteric.)",
+  "target_public_health_threats": [
+    "Hepatitis A"
+  ],
+  "keywords": [
+    "Hepatitis A",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }

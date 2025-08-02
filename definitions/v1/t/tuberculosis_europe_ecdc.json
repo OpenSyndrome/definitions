@@ -45,8 +45,13 @@
   ],
   "location": "Europe",
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Any person with the following two:\n— Signs, symptoms and/or radiological findings consistent with active tuberculosis in any site\nAND\n— A clinician's decision to treat the person with a full course of anti-tuberculosis therapy\nOR\nA case discovered post-mortem with pathological findings consistent with active tuberculosis that would have indicated\nanti-tuberculosis antibiotic treatment had the patient been diagnosed before dying",
+  "target_public_health_threats": [
+    "Tuberculosis"
+  ],
+  "keywords": [
+    "Tuberculosis",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }

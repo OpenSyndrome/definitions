@@ -65,8 +65,12 @@
     }
   ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Patient with rash* with two or more of the following signs or symptoms:\n\n    fever, usually &lt;38.5 ° C\n    conjunctivitis (non-purulent/hyperemic)\n    arthralgia\n    myalgia\n    peri-articular edema\n\n*usually pruritic and maculopapular",
+  "target_public_health_threats": [
+    "Zika virus"
+  ],
+  "keywords": [
+    "Zika virus"
+  ],
   "definition_type": "case_definition"
 }
