@@ -15,44 +15,67 @@
   "inclusion_criteria": [
     {
       "type": "criterion",
-      "logical_operator": "OR",
+      "name": "Age < 2 years and at least 1 symptom",
+      "logical_operator": "AND",
       "values": [
         {
-          "type": "symptom",
-          "name": "Hepatosplenomegaly"
+          "type": "demographic_criteria",
+          "name": "age",
+          "description": "< 2 years",
+          "attribute": "age",
+          "operator": "<=",
+          "value": 2,
+          "unit": "years"
         },
         {
-          "type": "symptom",
-          "name": "Rash",
-          "description": "Non-vesicular"
-        },
-        {
-          "type": "symptom",
-          "name": "Diarrhea"
-        },
-        {
-          "type": "symptom",
-          "name": "Vomiting"
-        },
-        {
-          "type": "symptom",
-          "name": "Convulsion (expected in seizures and osteochondritis)"
-        },
-        {
-          "type": "symptom",
-          "name": "Signs of central nervous system involvement"
-        },
-        {
-          "type": "symptom",
-          "name": "Anemia"
-        },
-        {
-          "type": "symptom",
-          "name": "Renal symptoms"
-        },
-        {
-          "type": "symptom",
-          "name": "Decreased appetite"
+          "type": "criterion",
+          "name": "With at least one of the following ten symptoms",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [
+            1
+          ],
+          "values": [
+            {
+              "type": "symptom",
+              "name": "hepatosplenomegaly"
+            },
+            {
+              "type": "symptom",
+              "name": "mucocutaneous lesions"
+            },
+            {
+              "type": "symptom",
+              "name": "flat warts"
+            },
+            {
+              "type": "symptom",
+              "name": "persistent rhinitis"
+            },
+            {
+              "type": "symptom",
+              "name": "jaundice"
+            },
+            {
+              "type": "symptom",
+              "name": "Pseudoparalysis (due to periostitis and osteochondritis)"
+            },
+            {
+              "type": "symptom",
+              "name": "Signs from the central nervous system"
+            },
+            {
+              "type": "symptom",
+              "name": "anemia"
+            },
+            {
+              "type": "symptom",
+              "name": "nephrotic syndrome"
+            },
+            {
+              "type": "symptom",
+              "name": "reduced food intake"
+            }
+          ]
         }
       ]
     }
@@ -64,8 +87,13 @@
   ],
   "published_at": "2025-02-08T11:15:13Z",
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "Any infant aged 0–< 2 years with at least one of the following ten:\n– Hepatosplenomegaly\n– Mucocutaneous lesions\n– Flat warts\n– Persistent rhinitis\n– Jaundice\n– Pseudoparalysis (due to periostitis and osteochondritis)\n– Signs from the central nervous system\n– Anemia\n– Nephrotic syndrome\n– Reduced food intake",
+  "target_public_health_threats": [
+    "Syphilis"
+  ],
+  "keywords": [
+    "Syphilis",
+    "Europe"
+  ],
   "definition_type": "case_definition"
 }
