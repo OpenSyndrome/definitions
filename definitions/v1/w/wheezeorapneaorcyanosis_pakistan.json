@@ -26,19 +26,27 @@
   "inclusion_criteria": [
     {
       "type": "criterion",
-      "logical_operator": "OR",
+      "name": "Severe chest indrawing",
+      "logical_operator": "AND",
       "values": [
         {
           "type": "symptom",
-          "name": "wheeze"
+          "name": "Severe chest indrawing"
         },
         {
-          "type": "symptom",
-          "name": "apnea"
-        },
-        {
-          "type": "symptom",
-          "name": "cyanosis"
+          "type": "criterion",
+          "name": "Either cough or tachypnea",
+          "logical_operator": "OR",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Cough"
+            },
+            {
+              "type": "symptom",
+              "name": "Tachypnea"
+            }
+          ]
         }
       ]
     }
@@ -49,9 +57,17 @@
       "url": "https://journals.lww.com/pidj/Fulltext/2019/03000/Assessment_and_Validation_of_Syndromic_Case.29.aspx"
     }
   ],
+  "notes": [
+    "The syndromic screening definitions included:\n“wheeze or apnea or cyanosis” (the classic manifestation of RSV) (section Screening and Sample Selection, second paragraph)"
+  ],
   "status": "draft",
-  "human_readable_definition": "",
-  "target_public_health_threats": [],
-  "keywords": [],
+  "human_readable_definition": "severe chest indrawing with either cough or tachypnea",
+  "target_public_health_threats": [
+    "Respiratory syncytial virus"
+  ],
+  "keywords": [
+    "Respiratory syncytial virus",
+    "Asia"
+  ],
   "definition_type": "case_definition"
 }
