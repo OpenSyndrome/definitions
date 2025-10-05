@@ -2,6 +2,8 @@
 
 [![JSONs validation](https://github.com/OpenSyndrome/definitions/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/OpenSyndrome/definitions/actions/workflows/validation.yml)
 
+[![Dataset on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-md.svg)](https://huggingface.co/datasets/opensyndrome/case-definitions)
+
 Definitions created from [Open Syndrome schema](https://github.com/OpenSyndrome/schema).
 
 ## Citing & Authors
