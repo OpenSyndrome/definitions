@@ -1,0 +1,76 @@
+{
+    "title": "Acute Diarrhea Case Definition",
+    "description": "Standardized case definition for acute diarrhea as an Adverse Event Following Immunization (AEFI) to enable consistent reporting and comparison across different healthcare settings and surveillance systems",
+    "scope": "specific",
+    "version": "1.0.0",
+    "open_syndrome_version": 1.0,
+    "publish_in": "https://brightoncollaboration.org/diarrhea",
+    "published_at": "2024-10-25 00:00:00.000000",
+    "location": "Global",
+    "organization": "Brighton Collaboration",
+    "language": "en",
+    "authors": ["Brighton Collaboration Diarrhea Working Group"],
+    "clinical_criterias": [
+        {
+            "type": "criteria",
+            "logical_operator": "AND",
+            "values": [
+                {
+                    "type": "symptom",
+                    "name": "loose_stool"
+                },
+                {
+                    "type": "value",
+                    "name": "stool_frequency",
+                    "operator": ">=",
+                    "value": "3"
+                },
+                {
+                    "type": "value",
+                    "name": "time_period",
+                    "operator": "<=",
+                    "value": "24"
+                }
+            ]
+        },
+        {
+            "type": "criteria",
+            "logical_operator": "AT_LEAST",
+            "logical_operator_arguments": ["1"],
+            "values": [
+                {
+                    "type": "symptom",
+                    "name": "watery_stool"
+                },
+                {
+                    "type": "symptom",
+                    "name": "unformed_stool"
+                }
+            ]
+        },
+        {
+            "type": "criteria",
+            "logical_operator": "OR",
+            "values": [
+                {
+                    "type": "symptom",
+                    "name": "dehydration"
+                },
+                {
+                    "type": "symptom",
+                    "name": "decreased_skin_turgor"
+                },
+                {
+                    "type": "symptom",
+                    "name": "sunken_eyes"
+                },
+                {
+                    "type": "value",
+                    "name": "blood_pressure",
+                    "operator": "<",
+                    "value": "90/60"
+                }
+            ]
+        }
+    ]
+}
