@@ -45,5 +45,6 @@
     "Diarrhea",
     "Asia"
   ],
-  "definition_type": "case_definition"
+  "definition_type": "case_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld"
 }

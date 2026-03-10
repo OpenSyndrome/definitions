@@ -55,5 +55,6 @@
     "Latin America",
     "syndrome definition"
   ],
-  "definition_type": "syndrome_definition"
+  "definition_type": "syndrome_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld"
 }
