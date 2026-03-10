@@ -77,5 +77,6 @@
     "Europe"
   ],
   "definition_type": "case_definition",
-  "@context": "https://opensyndrome.org/schema/v1/context.jsonld"
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+  "$schema": "https://w3id.org/opensyndrome/v1/schema.json"
 }
