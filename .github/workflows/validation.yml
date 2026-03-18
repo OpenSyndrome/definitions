@@ -10,18 +10,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Use Node.js 20.x
       uses: actions/setup-node@v4
       with:
         node-version: 20.x
     - name: Checkout schema repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: OpenSyndrome/schema
         ref: 'main'
         path: schema
-        token: ${{ secrets.SCHEMA_ACCESS_TOKEN }}
     - name: Install ajv-cli and ajv-formats
       run: npm install -g ajv-cli ajv-formats
     - name: Get changed files
