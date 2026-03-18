@@ -20,7 +20,8 @@
       "values": [
         {
           "type": "symptom",
-          "name": "fever"
+          "name": "fever",
+          "ontology_id": "HP:0001945"
         },
         {
           "type": "criterion",
@@ -31,11 +32,13 @@
           "values": [
             {
               "type": "symptom",
-              "name": "fatigue"
+              "name": "fatigue",
+              "ontology_id": "HP:0012378"
             },
             {
               "type": "symptom",
-              "name": "chills"
+              "name": "chills",
+              "ontology_id": "HP:0025143"
             },
             {
               "type": "symptom",
@@ -43,19 +46,23 @@
             },
             {
               "type": "symptom",
-              "name": "headache"
+              "name": "headache",
+              "ontology_id": "HP:0002315"
             },
             {
               "type": "symptom",
-              "name": "anorexia"
+              "name": "anorexia",
+              "ontology_id": "HP:0002039"
             },
             {
               "type": "symptom",
-              "name": "hemolytic anemia"
+              "name": "hemolytic anemia",
+              "ontology_id": "MONDO:0003664"
             },
             {
               "type": "symptom",
-              "name": "thrombocytopenia"
+              "name": "thrombocytopenia",
+              "ontology_id": "HP:0001873"
             }
           ]
         }
