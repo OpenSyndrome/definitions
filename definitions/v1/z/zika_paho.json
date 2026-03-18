@@ -15,7 +15,8 @@
         {
           "type": "symptom",
           "name": "Rash",
-          "description": "Usually pruritic and maculopapular"
+          "description": "Usually pruritic and maculopapular",
+          "ontology_id": "HP:0000988"
         },
         {
           "type": "criterion",
@@ -30,23 +31,28 @@
               "attribute": "body_temperature",
               "operator": ">=",
               "value": 38.5,
-              "unit": "Celsius"
+              "unit": "Celsius",
+              "ontology_id": "HP:0001945"
             },
             {
               "type": "symptom",
-              "name": "Conjunctivitis (non-purulent/hyperemic)"
+              "name": "Conjunctivitis (non-purulent/hyperemic)",
+              "ontology_id": "MONDO:0006668"
             },
             {
               "type": "symptom",
-              "name": "Arthralgia"
+              "name": "Arthralgia",
+              "ontology_id": "HP:0002829"
             },
             {
               "type": "symptom",
-              "name": "Myalgia"
+              "name": "Myalgia",
+              "ontology_id": "MONDO:0005751"
             },
             {
               "type": "symptom",
-              "name": "Peri-articular edema"
+              "name": "Peri-articular edema",
+              "ontology_id": "HP:0040049"
             }
           ]
         }
