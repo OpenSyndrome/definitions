@@ -21,7 +21,8 @@
         {
           "type": "symptom",
           "name": "Fever",
-          "description": "Sudden onset fever, even if self-reported"
+          "description": "Sudden onset fever, even if self-reported",
+          "ontology_id": "HP:0001945"
         },
         {
           "type": "criterion",
@@ -29,7 +30,8 @@
           "values": [
             {
               "type": "symptom",
-              "name": "Cough"
+              "name": "Cough",
+              "ontology_id": "HP:0012735"
             },
             {
               "type": "symptom",
@@ -46,15 +48,18 @@
           "values": [
             {
               "type": "symptom",
-              "name": "Headache"
+              "name": "Headache",
+              "ontology_id": "HP:0002315"
             },
             {
               "type": "symptom",
-              "name": "Myalgia"
+              "name": "Myalgia",
+              "ontology_id": "HP:0003326"
             },
             {
               "type": "symptom",
-              "name": "Arthralgia"
+              "name": "Arthralgia",
+              "ontology_id": "HP:0002829"
             }
           ]
         }
