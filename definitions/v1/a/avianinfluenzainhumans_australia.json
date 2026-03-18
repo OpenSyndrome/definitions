@@ -32,7 +32,8 @@
                 {
                   "type": "symptom",
                   "name": "Fever",
-                  "description": ">38°C"
+                  "description": ">38\u00b0C",
+                  "ontology_id": "HP:0001945"
                 },
                 {
                   "type": "symptom",
@@ -49,7 +50,8 @@
               "values": [
                 {
                   "type": "symptom",
-                  "name": "cough"
+                  "name": "cough",
+                  "ontology_id": "HP:0012735"
                 },
                 {
                   "type": "symptom",
@@ -57,19 +59,23 @@
                 },
                 {
                   "type": "symptom",
-                  "name": "myalgia"
+                  "name": "myalgia",
+                  "ontology_id": "HP:0003326"
                 },
                 {
                   "type": "symptom",
-                  "name": "headache"
+                  "name": "headache",
+                  "ontology_id": "HP:0002315"
                 },
                 {
                   "type": "symptom",
-                  "name": "dyspnoea"
+                  "name": "dyspnoea",
+                  "ontology_id": "HP:0002094"
                 },
                 {
                   "type": "symptom",
-                  "name": "diarrhoea"
+                  "name": "diarrhoea",
+                  "ontology_id": "MONDO:0001673"
                 }
               ]
             }
@@ -77,7 +83,8 @@
         },
         {
           "type": "symptom",
-          "name": "conjunctivitis"
+          "name": "conjunctivitis",
+          "ontology_id": "MONDO:0003799"
         },
         {
           "type": "criterion",
@@ -85,12 +92,14 @@
           "values": [
             {
               "type": "symptom",
-              "name": "Infiltrates or evidence of an acute pneumonia on chest radiograph"
+              "name": "Infiltrates or evidence of an acute pneumonia on chest radiograph",
+              "ontology_id": "HP:0002090"
             },
             {
               "type": "symptom",
               "name": "acute respiratory insufficiency",
-              "description": "hypoxaemia, severe tachypnoea"
+              "description": "hypoxaemia, severe tachypnoea",
+              "ontology_id": "HP:0002093"
             }
           ]
         }
