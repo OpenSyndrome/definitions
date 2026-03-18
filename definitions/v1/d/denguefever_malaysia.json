@@ -35,28 +35,34 @@
           "values": [
             {
               "type": "symptom",
-              "name": "headache"
+              "name": "headache",
+              "ontology_id": "HP:0002315"
             },
             {
               "type": "symptom",
-              "name": "retro-orbital pain"
+              "name": "retro-orbital pain",
+              "ontology_id": "UBERON:0004088"
             },
             {
               "type": "symptom",
-              "name": "myalgia"
+              "name": "myalgia",
+              "ontology_id": "HP:0003326"
             },
             {
               "type": "symptom",
-              "name": "arthralgia"
+              "name": "arthralgia",
+              "ontology_id": "HP:0002829"
             },
             {
               "type": "symptom",
-              "name": "rash"
+              "name": "rash",
+              "ontology_id": "HP:0000988"
             },
             {
               "type": "symptom",
               "name": "mild haemorrhagic manifestation",
-              "description": "e.g. epistaxis, gums bleeding and petechiae"
+              "description": "e.g. epistaxis, gums bleeding and petechiae",
+              "ontology_id": "MONDO:0600002"
             }
           ]
         }
