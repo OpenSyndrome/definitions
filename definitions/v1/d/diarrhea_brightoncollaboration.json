@@ -1,0 +1,50 @@
+{
+    "id": "https://opensyndrome.org/definitions/diarrhea-case-definition",
+    "$schema": "https://opensyndrome.org/schema/v1/schema.json",
+    "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+    "@type": "osd:CaseDefinition",
+    "title": "Diarrhea as an adverse event following immunization [AEFI]",
+    "description": "Diarrhea is a common medical condition characterized by increased frequency of bowel movements and increased liquidity of stool. Although acute diarrhea is typically self-limiting, it can be severe and can lead to profound dehydration, which can result in abnormally low blood volume, low blood pressure, and damage to various organs. Acute diarrhea remains a major cause of infant mortality globally, with over 2 million deaths attributed to it each year, mostly in the developing world. Children and the elderly are particularly prone to dehydration secondary to diarrhea. Diarrhea is also a commonly reported AEFI in both passive surveillance systems and clinical trials, for both oral and non-oral vaccines. The lack of a commonly accepted, standardized definition for diarrhea as an AEFI hinders comparability and uniform reporting across various study settings or surveillance systems.",
+    "scope": "broad",
+    "category": "suspected",
+    "version": "1.0.0",
+    "open_syndrome_version": "1.0.0",
+    "published_in": "https://opensyndrome.org",
+    "published_at": "2026-03-18T08:11:16Z",
+    "published_by": ["Open Syndrome Initiative"],
+    "location": "United States",
+    "language": "English",
+    "organization": "Brighton Collaboration",
+    "inclusion_criteria": [
+        {
+            "type": "criterion",
+            "logical_operator": "AND",
+            "name": "Diarrhea",
+            "values": [
+                {
+                    "type": "symptom",
+                    "name": "Passage of three or more stools in a 24-h period",
+                    "attribute": "stool_frequency_24h",
+                    "value": 3,
+                    "operator": ">="
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "url": "https://brightoncollaboration.org/diarrhea/"
+        }
+    ],
+    "status": "published",
+    "human_readable_definition": "Need for developing a case definition and guidelines for diarrhea as an adverse event following immunization [AEFI]:\n\nDiarrhea, also spelled diarrhoea, is a common medical condition that is characterized by increased frequency of bowel movements and increased liquidity of stool [1], [2]. Although acute diarrhea is typically self-limiting, it can be severe and can lead to profound dehydration, which can lead to abnormally low blood volume, low blood pressure, and damage to the kidneys, heart, liver, brain and other organs. Acute diarrhea remains a major cause of infant mortality around the world. Over 2 million deaths are attributed to acute diarrhea each year world-wide, most of them in the developing world. [3], [4], [5]. Children and the elderly are particularly prone to dehydration secondary to diarrhea.\n\nDiarrhea has been defined over time by various scientific groups and health organizations in different ways, such as: \u201cthe passage of loose unformed stools\u201d [6] or \u201cthree looser-than normal stools in a 24-h period\u201d [7], [8] with emphasis on the consistency of stools rather than the number [9]. In epidemiological studies, diarrhea is usually defined as the passage of three or more loose or watery stools in a 24-h period, a loose stool being one that takes the shape of a stool container [8], [9], [10], [11], [12], [13], [14], [15], [16].\n\nDiarrhea is also a commonly reported AEFI in both passive surveillance systems and clinical trials, for both oral and non-oral vaccines [14], [17], [18], [19], [20], [21], [22], [23], [24], [25]. The lack of a commonly accepted, standardized definition for diarrhea as an AEFI hinders comparability and uniform reporting of diarrhea across various study settings or surveillance systems.",
+    "target_public_health_threats": [
+        "diarrhea"
+    ],
+    "keywords": [
+        "diarrhea",
+        "dehydration",
+        "infant mortality"
+    ],
+    "definition_type": "case_definition"
+}
