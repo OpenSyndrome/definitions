@@ -10,9 +10,9 @@
 
 """
 This script will use various natural language processing (NLP)
-methods to annotate criteria.
-
-
+methods to annotate various aspects of the OpenSyndromes
+definitions using ontologies and databases exposed through
+PyOBO.
 
 Run using ``uv`` with ``uv run annotate.py``. This will
 automatically download and cache relevant ontologies
@@ -61,7 +61,7 @@ def main() -> None:
             click.echo(f"matched location: {location_match}")
 
         for inclusion_criteria in data.get("inclusion_criteria", []):
-            _work_criteria(title, inclusion_criteria, disease_symptom_grounder)
+            _recurse_over_criteria(inclusion_criteria, disease_symptom_grounder)
 
         for threat in data.get("target_public_health_threats", []):
             if threat_match := disease_symptom_grounder.get_best_match(threat):
@@ -73,30 +73,30 @@ def main() -> None:
     )
 
 
-def _work_criteria(title, data, grounder: ssslm.Grounder):
-    match data["type"]:
+def _recurse_over_criteria(record, grounder: ssslm.Grounder):
+    match record["type"]:
         case "criterion":
-            for value in data["values"]:
-                _work_criteria(title, value, grounder)
+            for value_record in record["values"]:
+                _recurse_over_criteria(value_record, grounder)
         case "symptom" | "syndrome":
-            name = data["name"]
+            name = record["name"]
             match = grounder.get_best_match(name)
             if match:
-                print("matched", data["type"], match.curie, match.name)
+                print("matched", record["type"], match.curie, match.name)
         case "diagnosis":
-            name = data["name"]
+            name = record["name"]
             match = grounder.get_best_match(name)
             # TODO 'code': {'system': 'ICD-10', 'code': 'A92.9'}}
             if match:
-                print("matched", data["type"], match.curie, match.name)
+                print("matched", record["type"], match.curie, match.name)
         case "professional_judgment" | "diagnostic_test":
-            name = data["name"]
+            name = record["name"]
             for annotation in grounder.annotate(name):
-                print("matched", data["type"], annotation.curie, annotation.name)
+                print("matched", record["type"], annotation.curie, annotation.name)
         case "demographic_criteria" | "epidemiological_history":
             pass
         case _ as e:
-            raise NotImplementedError(e, data)
+            raise NotImplementedError(e, record)
 
 
 if __name__ == "__main__":
