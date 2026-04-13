@@ -62,6 +62,8 @@ def main() -> None:
 
         for inclusion_criteria in data.get("inclusion_criteria", []):
             _recurse_over_criteria(inclusion_criteria, disease_symptom_grounder)
+        for exclusion_criteria in data.get("exclusion_criteria", []):
+            _recurse_over_criteria(exclusion_criteria, disease_symptom_grounder)
 
         for threat in data.get("target_public_health_threats", []):
             if threat_match := disease_symptom_grounder.get_best_match(threat):
