@@ -1,0 +1,181 @@
+{
+  "title": "Zikavirus-Erkrankung (Zika)",
+  "description": "RKI-Falldefinition für Zikavirus-Erkrankung: klinisches Bild einer akuten Zikavirus-Erkrankung oder Folgen einer akuten Zikavirus-Erkrankung (Guillain-Barré-Syndrom, konnatale Zikavirus-Erkrankung, Zikavirus-Erkrankung während der Schwangerschaft).",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2026-09-09T00:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Germany",
+  "language": "German",
+  "organization": "Robert Koch-Institut (RKI)",
+  "authors": [],
+  "inclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "name": "Zikavirus-Erkrankung (akutes klinisches Bild oder Folgen)",
+      "values": [
+        {
+          "type": "criterion",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [1],
+          "name": "Klinisches Bild einer akuten Zikavirus-Erkrankung",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Fieber"
+            },
+            {
+              "type": "symptom",
+              "name": "Hautausschlag"
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "OR",
+              "name": "Hirnhautentzündung (Meningitis) oder Gehirnentzündung (Enzephalitis)",
+              "values": [
+                {
+                  "type": "diagnosis",
+                  "name": "Meningitis (Hirnhautentzündung)"
+                },
+                {
+                  "type": "diagnosis",
+                  "name": "Enzephalitis (Gehirnentzündung)"
+                }
+              ]
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "OR",
+              "name": "Muskel- oder Gelenkschmerzen",
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Muskelschmerzen (Myalgie)"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Gelenkschmerzen (Arthralgie)"
+                }
+              ]
+            },
+            {
+              "type": "symptom",
+              "name": "Rötung der Bindehaut",
+              "description": "Konjunktivale Rötung / Konjunktivitis"
+            },
+            {
+              "type": "diagnosis",
+              "name": "Krankheitsbedingter Tod",
+              "description": "Tod infolge der akuten Zikavirus-Erkrankung"
+            }
+          ]
+        },
+        {
+          "type": "criterion",
+          "logical_operator": "AT_LEAST",
+          "logical_operator_arguments": [1],
+          "name": "Folgen einer akuten Zikavirus-Erkrankung",
+          "values": [
+            {
+              "type": "diagnosis",
+              "name": "Guillain-Barré-Syndrom"
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "AND",
+              "name": "Konnatale Zikavirus-Erkrankung",
+              "values": [
+                {
+                  "type": "criterion",
+                  "logical_operator": "OR",
+                  "name": "Geburtsausgang oder konnatale Fehlbildung",
+                  "values": [
+                    {
+                      "type": "diagnosis",
+                      "name": "Frühgeburt"
+                    },
+                    {
+                      "type": "diagnosis",
+                      "name": "Totgeburt"
+                    },
+                    {
+                      "type": "diagnosis",
+                      "name": "Konnatale Fehlbildungen",
+                      "description": "z. B. signifikant reduzierter Kopfumfang (Mikrozephalie)"
+                    }
+                  ]
+                },
+                {
+                  "type": "demographic_criteria",
+                  "name": "Kind im ersten Lebensjahr",
+                  "attribute": "age",
+                  "operator": "<",
+                  "value": 1,
+                  "unit": "years"
+                }
+              ]
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "OR",
+              "name": "Zikavirus-Erkrankung während der Schwangerschaft",
+              "values": [
+                {
+                  "type": "diagnosis",
+                  "name": "Fehlgeburt"
+                },
+                {
+                  "type": "diagnosis",
+                  "name": "Frühgeburt"
+                },
+                {
+                  "type": "diagnosis",
+                  "name": "Totgeburt"
+                },
+                {
+                  "type": "syndrome",
+                  "name": "Geburt eines Kindes mit konnataler Zikavirus-Erkrankung",
+                  "description": "Siehe Kriterium „Konnatale Zikavirus-Erkrankung“ oben."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Zusatzinformation: Bei allen Zikavirus-Erkrankungen bei Frauen sollte übermittelt werden, ob eine Schwangerschaft vorliegt."
+  ],
+  "references": [
+    {
+      "citation": "Robert Koch-Institut. Falldefinition Zikavirus-Erkrankung (Zika).",
+      "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Meldewesen/Falldefinitionen/Downloads/Zika.pdf?__blob=publicationFile&v=5"
+    }
+  ],
+  "status": "draft",
+  "human_readable_definition": "Zikavirus-Erkrankung (Zikavirus)\nKlinisches Bild\nKlinisches Bild einer akuten Zikavirus-Erkrankung, definiert als mindestens eines der sechs folgenden Kriterien:\n- Fieber,\n- Hautausschlag,\n- Hirnhautentzündung (Meningitis) oder Gehirnentzündung (Enzephalitis),\n- Muskel- oder Gelenkschmerzen,\n- Rötung der Bindehaut,\n- krankheitsbedingter Tod.\nODER Folgen einer akuten Zikavirus-Erkrankung definiert als mindestens eines der drei folgenden Kriterien:\n- Guillain-Barré-Syndrom,\n- konnatale Zikavirus-Erkrankung, definiert als Früh-, Totgeburt oder konnatale Fehlbildungen (z.B. signifikant reduzierter Kopfumfang (Mikrozephalie)) bei einem Kind im ersten Lebensjahr,\n- Zikavirus-Erkrankung während der Schwangerschaft definiert als Fehl-, Früh-, Totgeburt oder Geburt eines Kindes mit konnataler Zikavirus-Erkrankung.\nZusatzinformation\nBei allen Zikavirus-Erkrankungen bei Frauen sollte übermittelt werden, ob eine Schwangerschaft vorliegt.",
+  "surveillance_system_type": "Gesetzliche Meldepflicht (IfSG) – RKI-Falldefinition",
+  "target_public_health_threats": [
+    "Zikavirus-Erkrankung",
+    "Konnatale Zikavirus-Erkrankung",
+    "Guillain-Barré-Syndrom"
+  ],
+  "keywords": [
+    "Zika",
+    "Zikavirus",
+    "RKI",
+    "Falldefinition",
+    "Meldepflicht",
+    "Deutschland"
+  ],
+  "definition_type": "case_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+  "$schema": "https://w3id.org/opensyndrome/v1/schema.json"
+}
