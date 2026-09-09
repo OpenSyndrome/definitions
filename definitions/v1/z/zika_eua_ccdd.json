@@ -1,0 +1,163 @@
+{
+  "title": "Zika Virus Disease (CCDD)",
+  "description": "Chief Complaint and Discharge Diagnosis (CCDD) syndrome definition for Zika virus disease, including congenital Zika, querying chief complaint free text and ICD-10/SNOMED CT discharge diagnosis codes.",
+  "scope": "broad",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2026-09-09T00:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "United States",
+  "language": "English",
+  "organization": "CDC/NSSP",
+  "authors": [],
+  "inclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "name": "Zika virus disease indicators (chief complaint free text or discharge diagnosis code)",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Zika-related chief complaint free text",
+          "regex_pattern": "z[iy][ck][ai]",
+          "regex_flags": "i",
+          "description": "Chief complaint free text terms related to Zika virus disease: zica, zika, zyca, zyka, zici, ziki, zyci, zyki."
+        },
+        {
+          "type": "symptom",
+          "name": "Zika-related chief complaint free text (alternate spelling)",
+          "regex_pattern": " zee[ck]a",
+          "regex_flags": "i",
+          "description": "Chief complaint free text terms: zeeca, zeeka."
+        },
+        {
+          "type": "symptom",
+          "name": "Congenital Zika chief complaint free text",
+          "regex_pattern": "congenital z[iy][ck][ai]",
+          "regex_flags": "i",
+          "description": "Chief complaint free text terms related to congenital Zika: congenital zica, congenital zika, congenital zyca, congenital zyka, congenital zici, congenital ziki, congenital zyci, congenital zyki."
+        },
+        {
+          "type": "diagnosis",
+          "name": "Zika virus disease",
+          "code": {
+            "system": "ICD-10",
+            "code": "A92.5",
+            "display": "Zika virus disease"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Contact with and (suspected) exposure to Zika virus",
+          "code": {
+            "system": "ICD-10",
+            "code": "Z20.821",
+            "display": "Contact with and (suspected) exposure to Zika virus"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Congenital Zika virus disease",
+          "code": {
+            "system": "ICD-10",
+            "code": "P35.4",
+            "display": "Congenital Zika virus disease"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Zika virus",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "50471002",
+            "display": "Zika virus"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Zika virus disease",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "3928002",
+            "display": "Zika virus disease"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Exposure to Zika virus",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "16468541000119105",
+            "display": "Exposure to Zika virus"
+          }
+        },
+        {
+          "type": "diagnosis",
+          "name": "Congenital infection caused by Zika virus",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "762725007",
+            "display": "Congenital infection caused by Zika virus"
+          }
+        }
+      ]
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "name": "Excluded terms and codes",
+      "values": [
+        {
+          "type": "symptom",
+          "name": "Zicam (cold remedy) chief complaint mention",
+          "regex_pattern": "zicam",
+          "regex_flags": "i",
+          "description": "Excludes chief complaint free text referring to the over-the-counter cold remedy Zicam, which would otherwise falsely match the Zika free-text terms pattern."
+        },
+        {
+          "type": "diagnosis",
+          "name": "History of Zika virus infection",
+          "code": {
+            "system": "SNOMED-CT",
+            "code": "16468501000119108",
+            "display": "History of Zika virus infection"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Source is a CCDD (Chief Complaint and Discharge Diagnosis) query definition. The original query nests the Zicam exclusion only against the free-text Zika regex match (ANDNOT), not against the entire definition. The Open Syndrome Definition schema does not support a nested ANDNOT operator (only AND/OR/AT_LEAST), so both the Zicam free-text exclusion and the History-of-Zika-virus-infection code exclusion have been modeled as document-level exclusion_criteria (OR'd). This is a simplification of the original query logic."
+  ],
+  "references": [
+    {
+      "citation": "CCDD Category List, Syndromic Surveillance Knowledge Repository",
+      "url": "https://knowledgerepository.syndromicsurveillance.org/zika-v1"
+    }
+  ],
+  "status": "draft",
+  "human_readable_definition": "The CCDD parsed field is used to query the discharge diagnosis codes and chief complaint free text.\n\nInclusion based on Zika Virus Disease-related chief complaint free text terms:\nThe visit is included if it contains:\nChief complaints related to Zika virus disease – (“zica”, “zika”, “zyca”, “zyka”, “zici”, “ziki”, “zyci”, “zyki”, “zeeca”, “zeeka”) OR\nChief complaints related to Congenital Zika – (“congenital zica”, “congenital zika”, “congenital zyca”, “congenital zyka”, “congenital zici”, “congenital ziki”, “congenital zyci”, “congenital zyki”) OR\nExclusion based on the chief complaint free-text terms related to Zika virus disease above:\nChief complaint related to the cold remedy Zicam – (“zicam”) OR\nInclusion based on ICD-10 discharge diagnosis codes related to Zika virus:\nThe visit is included if it contains:\nA discharge diagnosis code of Zika virus disease (A92.5) OR\nA discharge diagnosis code of Contact with and (suspected) exposure to Zika virus (Z20.821) OR\nA discharge diagnosis code of Congenital Zika virus disease (P35.4) OR\nInclusion based on SNOMED CT discharge diagnosis codes related to Zika virus:\nThe visit is included if it contains:\nA discharge diagnosis code of Zika virus (50471002) OR\nA discharge diagnosis code of Zika virus disease (3928002) OR\nA discharge diagnosis code of Exposure to Zika virus (16468541000119105) OR\nA discharge diagnosis code of Congenital infection caused by Zika virus (762725007) ANDNOT\nAll of the above must exclude:\nSNOMED CT code related to History of Zika virus infection (16468501000119108)\n\n(,!z[iy][ck][ai]!,ANDNOT,^zicam^,OR,^ zee[ck]a^,or,^congenital z[iy][ck][ai]^,or,^;A925^,or,^;Z20821^,or,^;P354^,or,^;50471002;^,or,^;3928002;^,or,^;16468541000119105;^,or,^;762725007;^,),andnot,^;16468501000119108;^",
+  "surveillance_system_type": "Syndromic surveillance (CCDD - Chief Complaint and Discharge Diagnosis)",
+  "target_public_health_threats": [
+    "Zika virus disease",
+    "Congenital Zika syndrome"
+  ],
+  "keywords": [
+    "Zika",
+    "arbovirus",
+    "syndromic surveillance",
+    "CCDD",
+    "chief complaint",
+    "NSSP",
+    "ESSENCE"
+  ],
+  "definition_type": "syndrome_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+  "$schema": "https://w3id.org/opensyndrome/v1/schema.json"
+}
