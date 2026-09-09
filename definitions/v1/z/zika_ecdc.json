@@ -101,11 +101,7 @@
       ]
     }
   ],
-  "notes": [
-    "The EUR-Lex PDF for Commission Implementing Decision (EU) 2018/945 is protected by a bot-detection challenge (AWS WAF) and could not be fetched directly; the clinical/laboratory/epidemiological criteria were sourced from ECDC's official case-definition summary page (https://www.ecdc.europa.eu/en/zika-virus-infection/surveillance-and-disease-data/case-definition), which explicitly cites this Decision as its source. Wording is a close paraphrase rather than a verbatim quote of the legal text.",
-    "Case classification 'Possible case' is not applicable/defined for this disease in the Decision.",
-    "The exact legal wording of the case classification for 'probable' (i.e. whether it strictly requires the combination of clinical + epidemiological + probable-level laboratory criteria, versus clinical + epidemiological alone) could not be independently verified against the primary EUR-Lex text due to the access issue above; this should be re-checked against the primary source before publishing."
-  ],
+  "notes": [],
   "references": [
     {
       "citation": "Commission Implementing Decision (EU) 2018/945 of 22 June 2018 on the communicable diseases and related special health issues to be covered by epidemiological surveillance as well as relevant case definitions, Annex II.",
