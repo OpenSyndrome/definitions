@@ -1,0 +1,133 @@
+{
+  "title": "Zika Virus Disease (ECDC/EU Case Definition)",
+  "description": "EU/ECDC case definition for Zika virus disease surveillance, per Commission Implementing Decision (EU) 2018/945: clinical criteria (rash), laboratory criteria for confirmed and probable cases, and epidemiological criteria (travel/residence in a transmission area or sexual contact with an exposed/confirmed person).",
+  "scope": "specific",
+  "category": "probable",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018D0945&from=EN#page=53",
+  "published_at": "2026-09-09T14:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "European Union",
+  "language": "English",
+  "organization": "European Centre for Disease Prevention and Control (ECDC)",
+  "authors": [],
+  "inclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "name": "Zika virus disease case classification (probable or confirmed)",
+      "values": [
+        {
+          "type": "criterion",
+          "logical_operator": "AND",
+          "name": "Confirmed case (laboratory criteria for case confirmation)",
+          "values": [
+            {
+              "type": "criterion",
+              "logical_operator": "OR",
+              "name": "Laboratory criteria for confirmed case",
+              "values": [
+                {
+                  "type": "diagnostic_test",
+                  "name": "Detection of Zika virus nucleic acid in a clinical specimen"
+                },
+                {
+                  "type": "diagnostic_test",
+                  "name": "Detection of Zika virus antigen in a clinical specimen"
+                },
+                {
+                  "type": "diagnostic_test",
+                  "name": "Isolation of Zika virus from a clinical specimen"
+                },
+                {
+                  "type": "criterion",
+                  "logical_operator": "AND",
+                  "name": "Zika-specific IgM antibodies detected, confirmed by neutralisation test",
+                  "values": [
+                    {
+                      "type": "diagnostic_test",
+                      "name": "Zika virus specific IgM antibodies detected in serum sample(s)"
+                    },
+                    {
+                      "type": "diagnostic_test",
+                      "name": "Confirmation by neutralisation test"
+                    }
+                  ]
+                },
+                {
+                  "type": "diagnostic_test",
+                  "name": "Seroconversion or four-fold increase in the titre of Zika specific antibodies in paired serum samples"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "criterion",
+          "logical_operator": "AND",
+          "name": "Probable case (clinical, epidemiological and probable-level laboratory criteria)",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Rash"
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "OR",
+              "name": "Epidemiological criteria",
+              "values": [
+                {
+                  "type": "epidemiological_history",
+                  "name": "Travel or residence in transmission area",
+                  "description": "History of travel to, or residence in an area with documented on-going transmission of Zika virus, within the two-week period prior to the onset of symptoms"
+                },
+                {
+                  "type": "epidemiological_history",
+                  "name": "Sexual contact with exposed or confirmed person",
+                  "description": "Sexual contact with a person recently exposed to or confirmed with Zika virus infection"
+                }
+              ]
+            },
+            {
+              "type": "diagnostic_test",
+              "name": "Zika specific IgM antibodies detected in a serum sample",
+              "description": "Probable-level laboratory criterion (does not require confirmation by neutralisation test)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "references": [
+    {
+      "citation": "Commission Implementing Decision (EU) 2018/945 of 22 June 2018 on the communicable diseases and related special health issues to be covered by epidemiological surveillance as well as relevant case definitions, Annex II.",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018D0945&from=EN#page=53"
+    },
+    {
+      "citation": "European Centre for Disease Prevention and Control (ECDC). Case definition for surveillance of Zika virus infection.",
+      "url": "https://www.ecdc.europa.eu/en/zika-virus-infection/surveillance-and-disease-data/case-definition"
+    }
+  ],
+  "status": "draft",
+  "human_readable_definition": "Clinical criteria:\nA person presenting with a rash.\n\nLaboratory criteria for confirmed case (at least one of the following):\n- Detection of Zika virus nucleic acid in a clinical specimen\n- Detection of Zika virus antigen in a clinical specimen\n- Isolation of Zika virus from a clinical specimen\n- Detection of Zika virus specific IgM antibodies in serum sample(s) AND confirmation by neutralisation test\n- Seroconversion or four-fold increase in the titre of Zika specific antibodies in paired serum samples\n\nLaboratory criteria for probable case:\nDetection of Zika specific IgM antibodies in a serum sample.\n\nEpidemiological criteria (at least one of the following):\n- History of travel to, or residence in an area with documented on-going transmission of Zika virus, within the two-week period prior to the onset of symptoms\n- Sexual contact with a person recently exposed to or confirmed with Zika virus infection\n\nCase classification:\nA. Possible case: not applicable\nB. Probable case: a person meeting the clinical and epidemiological criteria, with a probable-level laboratory result\nC. Confirmed case: a person meeting the laboratory criteria for case confirmation",
+  "surveillance_system_type": "EU epidemiological surveillance under Commission Implementing Decision (EU) 2018/945",
+  "target_public_health_threats": [
+    "Zika virus disease",
+    "Zika virus infection"
+  ],
+  "keywords": [
+    "Zika",
+    "arbovirus",
+    "flavivirus",
+    "ECDC",
+    "European Union",
+    "case definition"
+  ],
+  "definition_type": "case_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+  "$schema": "https://w3id.org/opensyndrome/v1/schema.json"
+}
