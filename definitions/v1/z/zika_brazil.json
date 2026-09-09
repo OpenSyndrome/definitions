@@ -1,0 +1,94 @@
+{
+  "title": "Caso suspeito de Zika",
+  "description": "Definição de caso suspeito de Zika: código CID-10 A92.8 (outras febres virais transmitidas por mosquitos, não classificadas em outra parte) ou quadro clínico de exantema maculopapular pruriginoso acompanhado de um ou mais sinais/sintomas associados.",
+  "scope": "specific",
+  "category": "suspected",
+  "version": "1.0.0",
+  "open_syndrome_version": "1.0.0",
+  "published_in": "https://opensyndrome.org",
+  "published_at": "2026-09-09T00:00:00Z",
+  "published_by": [
+    "Open Syndrome Initiative"
+  ],
+  "location": "Brazil",
+  "language": "Brazilian Portuguese",
+  "organization": "Ministério da Saúde (Brasil)",
+  "authors": [],
+  "inclusion_criteria": [
+    {
+      "type": "criterion",
+      "logical_operator": "OR",
+      "name": "Caso suspeito de Zika (código CID-10 ou quadro clínico)",
+      "values": [
+        {
+          "type": "diagnosis",
+          "name": "Outras febres virais transmitidas por mosquitos",
+          "code": {
+            "system": "ICD-10",
+            "code": "A92.8",
+            "display": "Outras febres virais especificadas transmitidas por mosquitos"
+          }
+        },
+        {
+          "type": "criterion",
+          "logical_operator": "AND",
+          "name": "Caso suspeito de Zika (quadro clínico)",
+          "values": [
+            {
+              "type": "symptom",
+              "name": "Exantema maculopapular pruriginoso"
+            },
+            {
+              "type": "criterion",
+              "logical_operator": "AT_LEAST",
+              "logical_operator_arguments": [1],
+              "name": "Sinais e sintomas associados",
+              "values": [
+                {
+                  "type": "symptom",
+                  "name": "Febre",
+                  "description": "Podendo apresentar-se baixa (≤38,5°C)"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Hiperemia conjuntival/conjuntivite não purulenta"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Artralgia/poliartralgia"
+                },
+                {
+                  "type": "symptom",
+                  "name": "Edema periarticular"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "Ministério da Saúde (Brasil). Guia de Vigilância em Saúde, Volume 2, 6ª edição.",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-2-6a-edicao/view"
+    }
+  ],
+  "status": "draft",
+  "human_readable_definition": "A92.8\n\nou\n\nCaso suspeito de Zika\nPacientes que apresentem exantema maculopapular pruriginoso acompanhado de um ou mais dos seguintes sinais e sintomas:\n• Febre (podendo apresentar-se baixa ≤38,5°C).\n• Hiperemia conjuntival/conjuntivite não purulenta.\n• Artralgia/poliartralgia.\n• Edema periarticular.",
+  "surveillance_system_type": "Vigilância epidemiológica (definição de caso suspeito)",
+  "target_public_health_threats": [
+    "Zika",
+    "Doença pelo vírus Zika"
+  ],
+  "keywords": [
+    "Zika",
+    "arbovirose",
+    "exantema",
+    "Brasil",
+    "vigilância epidemiológica"
+  ],
+  "definition_type": "case_definition",
+  "@context": "https://opensyndrome.org/schema/v1/context.jsonld",
+  "$schema": "https://w3id.org/opensyndrome/v1/schema.json"
+}
